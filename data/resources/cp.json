@@ -1,0 +1,38 @@
+{
+  "DSA": [
+    {
+      "name": "Data Structures Fundamentals",
+      "type": "youtube",
+      "link": "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+      "description": "Complete Data Structures Course",
+      "tags": ["DSA", "Algorithms", "Programming"]
+    }
+  ],
+  "Algorithms": [
+    {
+      "name": "Advanced Algorithms",
+      "type": "gdrive",
+      "link": "https://drive.google.com/...",
+      "description": "Advanced algorithm concepts and implementations",
+      "tags": ["Algorithms", "CP", "Problem Solving"]
+    }
+  ],
+  "Contest Prep": [
+    {
+      "name": "Competitive Programming Guide",
+      "type": "website",
+      "link": "https://cp-algorithms.com/",
+      "description": "Comprehensive CP algorithms guide",
+      "tags": ["CP", "Algorithms", "Mathematics"]
+    }
+  ],
+  "Practice": [
+    {
+      "name": "LeetCode Patterns",
+      "type": "website",
+      "link": "https://leetcode.com/",
+      "description": "Systematic approach to problem solving",
+      "tags": ["LeetCode", "DSA", "Practice"]
+    }
+  ]
+}
