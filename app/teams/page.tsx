@@ -7,9 +7,58 @@ import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 
 const teamMembers = [
   {
-    name: "John Doe",
+    name: "Alex Chen",
     role: "Lead Developer",
-    image: "/path/to/image.jpg",
+    description: "Turning coffee into code and dreams into reality. Specializes in architecting scalable solutions.",
+    image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3",
+  },
+  {
+    name: "Sarah Johnson",
+    role: "UI/UX Designer",
+    description: "Creating seamless experiences through intuitive design. Passionate about user-centered solutions.",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3",
+  },
+  {
+    name: "Marcus Zhang",
+    role: "Backend Engineer",
+    description: "Database wizard and performance optimization specialist. Building robust systems that scale.",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3",
+  },
+  {
+    name: "Emma Davis",
+    role: "Product Manager",
+    description: "Bridging the gap between vision and execution. Turning ideas into impactful products.",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3",
+  },
+  {
+    name: "Ryan Patel",
+    role: "Frontend Developer",
+    description: "Crafting pixel-perfect interfaces with a focus on performance and accessibility.",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3",
+  },
+  {
+    name: "Lisa Wong",
+    role: "DevOps Engineer",
+    description: "Automating the future, one pipeline at a time. Cloud infrastructure expert.",
+    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3",
+  },
+  {
+    name: "James Foster",
+    role: "Security Specialist",
+    description: "Protecting our digital fortress. Making security accessible and implementable.",
+    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3",
+  },
+  {
+    name: "Nina Rodriguez",
+    role: "Mobile Developer",
+    description: "Creating seamless mobile experiences. Passionate about cross-platform development.",
+    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3",
+  },
+  {
+    name: "David Kim",
+    role: "ML Engineer",
+    description: "Bringing AI solutions to real-world problems. Data scientist and algorithm specialist.",
+    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3",
   },
 ];
 
@@ -71,7 +120,7 @@ export default function TeamsPage() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-4">
           <motion.h2 
-            className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-green-400 to-emerald-600 bg-clip-text text-transparent"
+            className="text-4xl font-bold mb-16 text-center bg-gradient-to-r from-green-400 to-emerald-600 bg-clip-text text-transparent"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
@@ -86,13 +135,44 @@ export default function TeamsPage() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.2 }}
+                transition={{ delay: index * 0.1 }}
                 whileHover={{ scale: 1.02 }}
               >
-                {/* Team member card content */}
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-white">{member.name}</h3>
-                  <p className="text-gray-400">{member.role}</p>
+                <div className="p-8 flex flex-col items-center text-center space-y-4">
+                  <motion.div
+                    className="relative w-32 h-32 rounded-full overflow-hidden border-2 border-green-400/20"
+                    whileHover={{ scale: 1.05 }}
+                    transition={{ type: "spring", stiffness: 300 }}
+                  >
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </motion.div>
+                  
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.2 }}
+                    className="space-y-2"
+                  >
+                    <h3 className="text-xl font-semibold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+                      {member.name}
+                    </h3>
+                    <p className="text-green-400 font-medium">
+                      {member.role}
+                    </p>
+                    <p className="text-gray-400 text-sm">
+                      {member.description}
+                    </p>
+                  </motion.div>
+
+                  <motion.div
+                    className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-green-400 to-emerald-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+                    initial={{ scaleX: 0 }}
+                    whileHover={{ scaleX: 1 }}
+                  />
                 </div>
               </motion.div>
             ))}

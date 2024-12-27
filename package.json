@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "changelog": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s -r 0",
+    "version": "npm run changelog && git add CHANGELOG.md"
   },
   "dependencies": {
     "@react-three/drei": "^9.120.4",
@@ -16,6 +18,7 @@
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",
     "framer-motion": "^11.15.0",
+    "husky": "^9.1.7",
     "lucide-react": "^0.469.0",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.22",
@@ -29,6 +32,8 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "conventional-changelog-cli": "^5.0.0",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.22",
     "postcss": "^8",
