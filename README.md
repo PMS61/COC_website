@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# COC Landing Page
 
-## Getting Started
+A modern landing page for COC (Community of Coders) built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Quick Start
 
+1. **Clone the repository**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/SharanRP/COC_Landing.git
+cd COC_Landing
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies**
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Run development server**
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) to view the project.
 
-## Learn More
+## 🛠️ Development Setup
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites
+- Node.js (v18 or higher)
+- npm (v9 or higher)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Environment Setup
+1. Copy the environment template:
+```bash
+cp .env.example .env.local
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Install husky hooks:
+```bash
+npm run prepare
+```
 
-## Deploy on Vercel
+## 📝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Branch Naming Convention
+All branches must follow the pattern:
+```
+username/feature-name
+```
+Example: `john/add-ai-page`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Pre-commit Checks
+Before committing, ensure:
+1. Code is linted and formatted:
+```bash
+npm run lint
+```
+
+2. TypeScript types are valid:
+```bash
+npm run type-check
+```
+
+3. Build succeeds:
+```bash
+npm run build
+```
+
+### Commit Message Format
+Follow the conventional commits specification:
+```
+type(scope): description
+
+Examples:
+feat(ai-page): add machine learning section
+fix(navbar): resolve mobile menu overlap
+docs(readme): update installation steps
+```
+
+Types:
+- `feat`: New feature
+- `fix`: Bug fix
+- `docs`: Documentation
+- `style`: Formatting
+- `refactor`: Code restructuring
+- `test`: Tests
+- `chore`: Maintenance
+
+### Pull Request Process
+1. Create branch following naming convention
+2. Make changes and commit following guidelines
+3. Push changes and create PR to `develop` branch
+4. Ensure all checks pass
+5. Request review
+
+## 🔧 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build production bundle
+- `npm run start` - Start production server
+- `npm run lint` - Check code style
+- `npm run type-check` - Verify TypeScript
+- `npm run prepare` - Install husky hooks
+
+## 🏗️ Project Structure
+
+```
+├── app/                # Next.js pages
+├── components/         # React components
+├── lib/               # Utilities and helpers
+├── public/            # Static assets
+└── styles/            # Global styles
+```
+
+## 🔐 Commit Hooks
+
+The project uses husky for git hooks:
+- Pre-commit: Runs linting, type checking, and build
+- Commit-msg: Validates commit message format and branch naming
+
+## 📚 Tech Stack
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- ESLint
+- Prettier
+- Husky
+- Commitlint
+
+## 📄 License
+
+This project is licensed under the MIT License.
