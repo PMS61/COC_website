@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "changelog": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s -r 0",
-    "version": "npm run changelog && git add CHANGELOG.md"
+    "version": "npm run changelog && git add CHANGELOG.md",
+    "test:workflow": "bash scripts/test-workflow.sh",
+    "test:ci": "npx act -j test"
   },
   "dependencies": {
     "@react-three/drei": "^9.120.4",
@@ -21,7 +23,7 @@
     "husky": "^9.1.7",
     "lucide-react": "^0.469.0",
     "mini-svg-data-uri": "^1.4.4",
-    "next": "14.2.22",
+    "next": "^14.2.22",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.6.0",
@@ -29,9 +31,13 @@
     "three": "^0.171.0"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@eslint/eslintrc": "^3.2.0",
+    "@types/node": "^20.17.10",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2",
+    "act": "^0.0.6",
     "conventional-changelog-cli": "^5.0.0",
     "conventional-changelog-conventionalcommits": "^8.0.0",
     "eslint": "^8",

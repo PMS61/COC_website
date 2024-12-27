@@ -1,0 +1,65 @@
+name: Test Workflow
+
+on: 
+  # Allows manual trigger from Actions tab
+  workflow_dispatch:
+  # For testing on pull requests to develop branch
+  pull_request:
+    branches: [ develop ]
+    types: [opened, synchronize]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Run tests
+        run: |
+          echo "Running tests..."
+          npm run test
+          
+      - name: Check build
+        run: |
+          echo "Checking build..."
+          npm run build
+          
+      # Test changelog generation
+      - name: Test changelog
+        run: |
+          echo "Testing changelog generation..."
+          npm run changelog
+          
+      - name: Test commit lint
+        run: |
+          echo "Testing last commit message..."
+          echo "$(git log -1 --pretty=%B)" | npx commitlint
+
+      - name: Status Check
+        run: |
+          echo "All tests completed successfully!" 
+
+      - name: Debug
+        if: ${{ failure() }}
+        run: |
+          echo "Debug information:"
+          env
+          ls -la 
+
+      - name: Check Status
+        run: |
+          if [ $? -eq 0 ]; then
+            echo "::set-output name=status::success"
+          else
+            echo "::set-output name=status::failure"
+            exit 1
+          fi 
