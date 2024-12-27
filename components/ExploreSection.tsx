@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
-import { EvervaultCard, Icon } from "./ui/evervault-card";
+// import { EvervaultCard, Icon } from "./ui/evervault-card";
 import { IconCode, IconBrain, IconRobot, IconDeviceGamepad2, IconBuildingCommunity, IconRocket } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 

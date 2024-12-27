@@ -24,7 +24,7 @@ const Hero = () => {
           </h1>
           
           <div className="flex items-center justify-center gap-4">
-            {['Innovate', 'Create', 'Collaborate'].map((text, index) => (
+            {['Innovate', 'Create', 'Collaborate'].map((text) => (
               <span 
                 key={text}
                 className="text-sm text-neutral-300 px-4 py-2 border border-neutral-700/50 rounded-full"

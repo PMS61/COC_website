@@ -3,6 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Meteors } from "@/components/ui/meteors";
 import Navbar from "@/components/Navbar";
+import Image from 'next/image';
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 
 const teamMembers = [
@@ -144,7 +145,7 @@ export default function TeamsPage() {
                     whileHover={{ scale: 1.05 }}
                     transition={{ type: "spring", stiffness: 300 }}
                   >
-                    <img
+                    <Image
                       src={member.image}
                       alt={member.name}
                       className="w-full h-full object-cover"
@@ -180,7 +181,6 @@ export default function TeamsPage() {
         </div>
       </section>
 
-      {/* Updated Mentors Section with AnimatedTestimonials */}
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-4">
           <motion.h2 

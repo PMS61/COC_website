@@ -2,7 +2,7 @@
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { EvervaultCard } from "./evervault-card";
-import { Gradient } from "./gradient-text";
+// import { Gradient } from "./gradient-text";
 
 export const BentoGridItem = ({
   className,

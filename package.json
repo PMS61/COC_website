@@ -10,7 +10,10 @@
     "changelog": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s -r 0",
     "version": "npm run changelog && git add CHANGELOG.md",
     "test:workflow": "bash scripts/test-workflow.sh",
-    "test:ci": "npx act -j test"
+    "test:ci": "npx act -j test",
+    "test": "echo 'No tests yet'",
+    "type-check": "tsc --noEmit",
+    "lint-staged": "lint-staged"
   },
   "dependencies": {
     "@react-three/drei": "^9.120.4",

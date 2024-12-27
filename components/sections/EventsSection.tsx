@@ -1,9 +1,9 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { cn } from "@/lib/utils";
-import { motion, AnimatePresence } from "framer-motion";
-import { Boxes } from "../ui/background-boxes";
-import { Particles } from "../ui/particles";
+import { motion } from "framer-motion";
+// import { Boxes } from "../ui/background-boxes";
+// import { Particles } from "../ui/particles";
 import {OrbitingCircles} from "@/components/ui/orbiting-circles";
 import { AnimatedList } from "@/components/ui/animated-list";
 
@@ -127,10 +127,6 @@ function EventsListDemo({ className }: { className?: string }) {
 }
 
 export function FeaturesSectionDemo() {
-  const [hoveredId, setHoveredId] = useState<number | null>(null);
-
-  const events = ["Hackathons", "Workshops", "Activities", "Talks"];
-
   const cards = [
     { 
       id: 1, 
@@ -167,7 +163,7 @@ export function FeaturesSectionDemo() {
 
   return (
     <section className="py-24 bg-neutral-950/0 relative overflow-hidden">
-      <Particles className="absolute inset-0" />
+      {/* <Particles className="absolute inset-0" /> */}
       
       <div className="text-center mb-16 relative z-10">
         <h2 className="text-6xl font-bold bg-gradient-to-b from-green-700 to-green-300 bg-clip-text text-transparent  mb-4">
@@ -195,8 +191,6 @@ export function FeaturesSectionDemo() {
               style={{
                 backgroundPosition: '0 0'
               }}
-              onMouseEnter={() => setHoveredId(card.id)}
-              onMouseLeave={() => setHoveredId(null)}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
