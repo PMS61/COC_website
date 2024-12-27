@@ -148,6 +148,8 @@ export default function TeamsPage() {
                     <Image
                       src={member.image}
                       alt={member.name}
+                      width={128}
+                      height={128}
                       className="w-full h-full object-cover"
                     />
                   </motion.div>
