@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import { SectionHero } from "@/components/sections/SectionHero";
+import { Suspense } from "react";
 
 export default function CpClubPage() {
   const badges = [
@@ -12,15 +13,17 @@ export default function CpClubPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-neutral-950">
-      <Navbar />
-      <SectionHero
-        title="Cp Club"
-        subtitle="Where Code Meets Innovation"
-        description="Join a thriving community of developers who are passionate about crafting exceptional software solutions. From web applications to mobile experiences, we're building the digital future together."
-        badges={badges}
-      />
-      {/* Other sections will go here */}
-    </main>
+    <Suspense fallback={<div>Loading...</div>}>
+      <main className="min-h-screen bg-neutral-950">
+        <Navbar />
+        <SectionHero
+          title="Cp Club"
+          subtitle="Where Code Meets Innovation"
+          description="Join a thriving community of developers who are passionate about crafting exceptional software solutions. From web applications to mobile experiences, we're building the digital future together."
+          badges={badges}
+        />
+        {/* Other sections will go here */}
+      </main>
+    </Suspense>
   );
 } 
