@@ -4,6 +4,7 @@ import "./globals.css";
 import { Montserrat } from 'next/font/google';
 import { PostHogProvider } from '@/components/providers/PostHogProvider'
 import { PostHogPageview } from '@/components/PostHogPageview'
+import { NextAuthProvider } from '@/components/providers/NextAuthProvider'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -36,10 +37,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} antialiased`}
       >
-        <PostHogProvider>
-          <PostHogPageview />
-          {children}
-        </PostHogProvider>
+        <NextAuthProvider>
+          <PostHogProvider>
+            <PostHogPageview />
+            {children}
+          </PostHogProvider>
+        </NextAuthProvider>
       </body>
     </html>
   );

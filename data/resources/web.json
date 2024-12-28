@@ -1,0 +1,45 @@
+{
+  "Frontend": [
+    {
+      "name": "React.js Fundamentals",
+      "type": "youtube",
+      "link": "https://www.youtube.com/watch?v=bMknfKXIFA8",
+      "description": "Complete React course for beginners to advanced",
+      "tags": ["React", "JavaScript", "Frontend"]
+    },
+    {
+      "name": "Next.js 13 & 14 Course",
+      "type": "youtube",
+      "link": "https://www.youtube.com/watch?v=843nec-IvW0",
+      "description": "Learn Next.js App Router, Server Components, and more",
+      "tags": ["Next.js", "React", "Full Stack"]
+    }
+  ],
+  "Backend": [
+    {
+      "name": "Node.js Complete Guide",
+      "type": "youtube",
+      "link": "https://www.youtube.com/watch?v=Oe421EPjeBE",
+      "description": "Node.js and Express.js complete guide",
+      "tags": ["Node.js", "Express", "Backend"]
+    }
+  ],
+  "DevOps": [
+    {
+      "name": "Docker & Kubernetes",
+      "type": "youtube",
+      "link": "https://www.youtube.com/watch?v=Wf2eSG3owoA",
+      "description": "Learn containerization and orchestration",
+      "tags": ["Docker", "Kubernetes", "DevOps"]
+    }
+  ],
+  "Mobile": [
+    {
+      "name": "React Native Tutorial",
+      "type": "youtube",
+      "link": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+      "description": "Build mobile apps with React Native",
+      "tags": ["React Native", "Mobile", "JavaScript"]
+    }
+  ]
+}

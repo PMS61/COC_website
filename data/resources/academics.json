@@ -1,0 +1,38 @@
+{
+  "First Year": [
+    {
+      "name": "Engineering Mathematics",
+      "type": "gdrive",
+      "link": "https://drive.google.com/...",
+      "description": "First year mathematics notes and resources",
+      "tags": ["Mathematics", "FY", "Notes"]
+    }
+  ],
+  "Second Year": [
+    {
+      "name": "Data Structures Notes",
+      "type": "gdrive",
+      "link": "https://drive.google.com/...",
+      "description": "Complete DSA course materials",
+      "tags": ["DSA", "SY", "Notes"]
+    }
+  ],
+  "Third Year": [
+    {
+      "name": "Machine Learning",
+      "type": "gdrive",
+      "link": "https://drive.google.com/...",
+      "description": "ML course materials and assignments",
+      "tags": ["ML", "TY", "Notes"]
+    }
+  ],
+  "Final Year": [
+    {
+      "name": "Project Guidelines",
+      "type": "gdrive",
+      "link": "https://drive.google.com/...",
+      "description": "Final year project documentation",
+      "tags": ["Project", "Final Year", "Guidelines"]
+    }
+  ]
+}

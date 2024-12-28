@@ -1,0 +1,38 @@
+{
+  "AI Fundamentals": [
+    {
+      "name": "Machine Learning Basics",
+      "type": "youtube",
+      "link": "https://www.youtube.com/watch?v=ngLyX54e1LU",
+      "description": "Introduction to Machine Learning concepts",
+      "tags": ["ML", "Python", "Mathematics"]
+    }
+  ],
+  "Deep Learning": [
+    {
+      "name": "Neural Networks from Scratch",
+      "type": "youtube",
+      "link": "https://www.youtube.com/watch?v=Wo5dMEP_BbI",
+      "description": "Build neural networks from ground up",
+      "tags": ["Deep Learning", "Python", "Neural Networks"]
+    }
+  ],
+  "NLP": [
+    {
+      "name": "Natural Language Processing",
+      "type": "gdrive",
+      "link": "https://drive.google.com/...",
+      "description": "Complete NLP course materials",
+      "tags": ["NLP", "Python", "AI"]
+    }
+  ],
+  "Computer Vision": [
+    {
+      "name": "OpenCV Course",
+      "type": "youtube",
+      "link": "https://www.youtube.com/watch?v=oXlwWbU8l2o",
+      "description": "Computer Vision with Python and OpenCV",
+      "tags": ["CV", "Python", "OpenCV"]
+    }
+  ]
+}
