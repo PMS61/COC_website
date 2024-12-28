@@ -16,7 +16,9 @@
     "lint-staged": "lint-staged",
     "prepare": "husky install && git config core.hooksPath .husky",
     "postinstall": "git config core.hooksPath .husky",
-    "pre-commit": "npm run lint && npm run type-check && npm run build"
+    "pre-commit": "npm run lint && npm run type-check && npm run build",
+    "release": "changeset publish",
+    "changeset": "changeset"
   },
   "dependencies": {
     "@auth/core": "^0.34.2",
