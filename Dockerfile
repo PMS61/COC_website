@@ -3,15 +3,13 @@ FROM node:18-alpine AS deps
 WORKDIR /app
 
 # Install dependencies needed for build
-RUN apk add --no-cache libc6-compat
+RUN apk add --no-cache libc6-compat git
 
 # Copy package files
 COPY package*.json ./
 
-# Install dependencies with npm
-RUN apk add --no-cache npm && \
-    npm ci && \
-    apk del npm
+# Install dependencies (without husky)
+RUN npm ci --ignore-scripts
 
 # Stage 2: Builder
 FROM node:18-alpine AS builder
@@ -24,6 +22,7 @@ COPY . .
 # Set environment variables for build
 ENV NEXT_TELEMETRY_DISABLED 1
 ENV NODE_ENV production
+ENV HUSKY 0
 
 # Build application
 RUN npm run build
