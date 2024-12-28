@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
-            <Image src="/coc_dark_ukajqb.png" alt="COC VJTI Logo" width={32} height={32} />
+            <Image src="/coc_vjti.jpeg" alt="COC VJTI Logo" width={32} height={32} />
             <Link href="/" className="text-xl font-montserrat font-bold bg-gradient-to-r from-green-400 to-emerald-600 bg-clip-text text-transparent">
               CoC
             </Link>

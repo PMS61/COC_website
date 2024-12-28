@@ -1,6 +1,6 @@
 # COC Landing Page
 
-A modern landing page for CoC VJTI (Community of Coders) built with Next.js, TypeScript, and Tailwind CSS.
+A modern landing page for COC (Community of Coders) built with Next.js, TypeScript, and Tailwind CSS.
 
 ## 🚀 Quick Start
 
