@@ -32,9 +32,12 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full z-50 bg-black/50 backdrop-blur-sm border-b border-white/10">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="text-xl font-montserrat font-bold bg-gradient-to-r from-green-400 to-emerald-600 bg-clip-text text-transparent">
-            CoC
-          </Link>
+          <div className="flex items-center space-x-2">
+            <Image src="/coc_vjti.jpeg" alt="COC VJTI Logo" width={32} height={32} />
+            <Link href="/" className="text-xl font-montserrat font-bold bg-gradient-to-r from-green-400 to-emerald-600 bg-clip-text text-transparent">
+              CoC
+            </Link>
+          </div>
           
           <div className="hidden md:flex space-x-8">
             <Link href="/about" className="text-gray-300 hover:text-green-400 transition-colors font-montserrat text-sm">
