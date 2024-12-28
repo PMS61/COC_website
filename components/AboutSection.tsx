@@ -1,4 +1,5 @@
-"use client";
+'use client';
+
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Timeline } from "@/components/ui/timeline";
@@ -164,4 +165,4 @@ export function AboutSection() {
       </div>
     </section>
   );
-} 
+}
