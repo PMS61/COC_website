@@ -83,4 +83,4 @@ const items = [
     className: "md:col-span-3 md:row-span-1",
     icon: <IconRocket className="h-5 w-5 text-green-400" />,
   },
-]; 
+];
