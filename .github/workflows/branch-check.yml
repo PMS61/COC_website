@@ -1,0 +1,54 @@
+name: Branch Name Check
+
+on:
+  push:
+    branches-ignore:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  check-branch-name:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check branch name
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            BRANCH="${{ github.head_ref }}"
+          else
+            BRANCH=${GITHUB_REF#refs/heads/}
+          fi
+          
+          if [[ ! $BRANCH =~ ^[a-zA-Z0-9]+/[a-zA-Z0-9-]+$ ]]; then
+            echo "🚫 Branch name validation failed"
+            echo "Branch: $BRANCH"
+            echo "Required format: username/feature-name"
+            exit 1
+          fi
+          echo "✅ Branch name follows convention: $BRANCH"
+
+  validate-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install commitlint
+        run: |
+          npm install --save-dev @commitlint/cli @commitlint/config-conventional
+
+      - name: Check commit message
+        run: |
+          echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitlint.config.js
+          git log -1 --pretty=format:"%s" | npx commitlint 

@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Enforce branch naming
+while read oldrev newrev refname; do
+  branch=$(echo "$refname" | sed -n 's|refs/heads/||p')
+  if [[ ! $branch =~ ^[a-zA-Z0-9]+/[a-zA-Z0-9-]+$ ]]; then
+    echo "🚫 ERROR: Branch '$branch' does not follow naming convention"
+    echo "✅ Required format: username/feature-name"
+    exit 1
+  fi
+done
+
+# Block force pushes
+if git rev-list $newrev..$oldrev >/dev/null 2>&1; then
+  echo "🚫 Force pushes are not allowed"
+  exit 1
+fi 

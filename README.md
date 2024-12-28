@@ -18,6 +18,8 @@ npm install
 3. **Run development server**
 ```bash
 npm run dev
+# or with Docker
+docker compose up --build
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view the project.
@@ -27,19 +29,46 @@ Open [http://localhost:3000](http://localhost:3000) to view the project.
 ### Prerequisites
 - Node.js (v18 or higher)
 - npm (v9 or higher)
+- Docker (optional)
 
 ### Environment Setup
 1. Copy the environment template:
 ```bash
-cp .env.example .env.local
+cp .env.example .env.production
 ```
 
 2. Install husky hooks:
 ```bash
 npm run prepare
+git config core.hooksPath .husky
+```
+
+## 🐳 Docker
+
+### Build and Run
+```bash
+docker compose up --build
+```
+
+### Environment Variables
+Required in `.env.production`:
+```env
+GOOGLE_CLIENT_ID=your_client_id
+GOOGLE_CLIENT_SECRET=your_client_secret
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your_secret
+POSTHOG_KEY=your_key
+POSTHOG_HOST=your_host
 ```
 
 ## 📝 Contributing
+
+### Strict Git Enforcement
+All commits and branches are strictly enforced through:
+- Local git hooks (husky)
+- Server-side hooks
+- GitHub Actions
+- GUI client configurations
 
 ### Branch Naming Convention
 All branches must follow the pattern:
@@ -48,22 +77,19 @@ username/feature-name
 ```
 Example: `john/add-ai-page`
 
+Enforcement:
+- Pre-receive hooks
+- GitHub Actions
+- Local git hooks
+- No force pushes allowed
+
 ### Pre-commit Checks
-Before committing, ensure:
-1. Code is linted and formatted:
-```bash
-npm run lint
-```
-
-2. TypeScript types are valid:
-```bash
-npm run type-check
-```
-
-3. Build succeeds:
-```bash
-npm run build
-```
+Before committing, the following are automatically enforced:
+1. Code linting and formatting
+2. TypeScript type checking
+3. Successful build
+4. Branch name validation
+5. Commit message format
 
 ### Commit Message Format
 Follow the conventional commits specification:

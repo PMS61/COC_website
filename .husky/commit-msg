@@ -1,5 +1,5 @@
-# #!/usr/bin/env sh
-# . "$(dirname -- "$0")/_/husky.sh"
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
 
 # Validate commit message format
 npx --no -- commitlint --edit "$1"
@@ -9,10 +9,14 @@ BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
 BRANCH_PATTERN="^[a-zA-Z0-9]+/[a-zA-Z0-9-]+$"
 
 if ! echo "$BRANCH_NAME" | grep -E "$BRANCH_PATTERN" > /dev/null; then
-    echo "🚫 Branch name must follow pattern: username/feature-name"
-    echo "❌ Your branch name: $BRANCH_NAME"
-    echo "✅ Example: john/add-footer"
+    echo "🚫 Branch name validation failed"
+    echo "Branch: $BRANCH_NAME"
+    echo "Required format: username/feature-name"
+    echo "Examples:"
+    echo "✅ john/add-footer"
+    echo "✅ jane/fix-auth"
+    echo "❌ feature-only"
+    echo "❌ MainBranch"
     exit 1
 fi
-
 echo "✅ Branch name follows convention: $BRANCH_NAME"
