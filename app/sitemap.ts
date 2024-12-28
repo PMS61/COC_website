@@ -4,7 +4,6 @@ import { domains } from '@/config/navigation'
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://coc-landing.vercel.app'
   
-  // Base routes
   const routes = [
     '',
     '/about',

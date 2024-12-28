@@ -5,6 +5,7 @@ import { Montserrat } from 'next/font/google';
 import { PostHogProvider } from '@/components/providers/PostHogProvider'
 import { PostHogPageview } from '@/components/PostHogPageview'
 import { NextAuthProvider } from '@/components/providers/NextAuthProvider'
+import { websiteSchema, organizationSchema } from './schema'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,46 +26,45 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   metadataBase: new URL('https://coc-landing.vercel.app'),
   title: {
-    default: "VJTI Resources & Communities",
-    template: "%s | VJTI Resources"
+    default: "Community of Coders VJTI | COC Landing",
+    template: "%s | Community of Coders VJTI"
   },
-  description: "Access curated educational resources, join tech communities, and connect with VJTI's developer ecosystem. Features AI, Web Dev, CP, and academic materials.",
-  keywords: ["VJTI", "education", "resources", "developer communities", "engineering", "tech clubs", "Mumbai","AI","Web Dev","CP","academic materials","coc","coding"],
-  authors: [{ name: "VJTI Resources Team" }],
-  openGraph: {
-    type: "website",
-    locale: "en_IN",
-    url: "https://coc-landing.vercel.app",
-    siteName: "VJTI Resources",
-    images: [{
-      url: "/coc_vjti.jpeg",
-      width: 1200,
-      height: 630,
-      alt: "VJTI Resources & Communities Logo"
-    }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@vjti_resources",
-    images: "/coc_vjti.jpeg",
-  },
-  icons: {
-    icon: "/coc_vjti.jpeg",
-  },
+  description: "Access curated educational resources, join tech communities, and explore learning paths for Web Development, AI/ML, Competitive Programming at VJTI.",
+  keywords: ["VJTI", "COC", "tech communities", "educational resources", "web development", "AI/ML", "competitive programming", "student clubs"],
+  authors: [{ name: "Community of Coders" }],
+  creator: "Community of Coders VJTI",
+  publisher: "VJTI",
   robots: {
     index: true,
     follow: true,
     googleBot: {
       index: true,
       follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
     },
   },
-  verification: {
-    google: "your-google-verification-code",
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://coc-landing.vercel.app',
+    title: 'Community of Coders VJTI',
+    description: 'Access curated educational resources and join tech communities at VJTI.',
+    siteName: 'Community of Coders VJTI',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Community of Coders VJTI',
+    description: 'Access curated educational resources and join tech communities at VJTI.',
+    creator: '@COC_VJTI',
+  },
+  alternates: {
+    canonical: 'https://coc-landing.vercel.app',
+  },
+  verification: {
+    google: 'your-google-verification-code',
+  }
 };
 
 export default function RootLayout({
@@ -74,6 +74,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteSchema)
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema)
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} antialiased`}
       >

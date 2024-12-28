@@ -1,0 +1,9 @@
+[core]
+  hooksPath = .husky
+  ignorecase = false
+
+[hooks]
+  enforceForAll = true
+
+[receive]
+  denyNonFastForwards = true 
