@@ -4,16 +4,41 @@ import { domains } from '@/config/navigation'
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://coc-landing.vercel.app'
   
+  // Main routes with external resources
   const routes = [
-    '',
-    '/about',
-    '/teams',
-    '/dashboard',
-    '/dev-club',
-    '/cp-club',
-    '/ai-group',
-    '/eth-club',
-  ].map((route) => ({
+    {
+      route: '',
+      externalResources: ['https://vjti.ac.in', 'https://github.com/communityofcoders']
+    },
+    {
+      route: '/about',
+      externalResources: ['https://www.linkedin.com/company/community-of-coders-vjti/posts/?feedView=all']
+    },
+    {
+      route: '/teams',
+      externalResources: ['https://github.com/communityofcoders']
+    },
+    {
+      route: '/dashboard',
+      externalResources: ['https://docs.github.com/en']
+    },
+    {
+      route: '/dev-club',
+      externalResources: ['https://developer.mozilla.org', 'https://reactjs.org']
+    },
+    {
+      route: '/cp-club',
+      externalResources: ['https://codeforces.com', 'https://leetcode.com']
+    },
+    {
+      route: '/ai-group',
+      externalResources: ['https://pytorch.org', 'https://tensorflow.org']
+    },
+    {
+      route: '/eth-club',
+      externalResources: ['https://ethereum.org', 'https://web3.foundation']
+    },
+  ].map(({ route }) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
