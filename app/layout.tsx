@@ -52,19 +52,36 @@ export const metadata: Metadata = {
     title: 'Community of Coders VJTI',
     description: 'Access curated educational resources and join tech communities at VJTI.',
     siteName: 'Community of Coders VJTI',
+    images: [
+      {
+        url: '/coc_vjti.jpeg',
+        width: 1200,
+        height: 630,
+        alt: 'Community of Coders VJTI'
+      }
+    ],
+    countryName: 'India',
+    emails: ['communityofcoders@vjti.ac.in'],
+    phoneNumbers: ['+91-9833553251'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Community of Coders VJTI',
     description: 'Access curated educational resources and join tech communities at VJTI.',
     creator: '@COC_VJTI',
+    images: ['/coc_vjti.jpeg'],
   },
   alternates: {
     canonical: 'https://coc-landing.vercel.app',
+    languages: {
+      'en-US': 'https://coc-landing.vercel.app/en-US',
+    }
   },
   verification: {
     google: 'your-google-verification-code',
-  }
+  },
+  category: 'technology',
+  classification: 'Education & Technology'
 };
 
 export default function RootLayout({
