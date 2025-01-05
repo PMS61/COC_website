@@ -2,55 +2,57 @@ import { MetadataRoute } from 'next'
 import { domains } from '@/config/navigation'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://coc-landing.vercel.app'
-  
-  // Main routes with external resources
-  const routes = [
-    {
-      route: '',
-      externalResources: ['https://vjti.ac.in', 'https://github.com/communityofcoders']
-    },
-    {
-      route: '/about',
-      externalResources: ['https://www.linkedin.com/company/community-of-coders-vjti/posts/?feedView=all']
-    },
-    {
-      route: '/teams',
-      externalResources: ['https://github.com/communityofcoders']
-    },
-    {
-      route: '/dashboard',
-      externalResources: ['https://docs.github.com/en']
-    },
-    {
-      route: '/dev-club',
-      externalResources: ['https://developer.mozilla.org', 'https://reactjs.org']
-    },
-    {
-      route: '/cp-club',
-      externalResources: ['https://codeforces.com', 'https://leetcode.com']
-    },
-    {
-      route: '/ai-group',
-      externalResources: ['https://pytorch.org', 'https://tensorflow.org']
-    },
-    {
-      route: '/eth-club',
-      externalResources: ['https://ethereum.org', 'https://web3.foundation']
-    },
-  ].map(({ route }) => ({
-    url: `${baseUrl}${route}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: route === '' ? 1 : 0.8,
-  }))
+  const baseUrl = 'https://communityofcoders.in'
 
-  const resourceRoutes = domains.map((domain) => ({
-    url: `${baseUrl}/dashboard/${domain.resources}`,
+  // Main routes
+  const mainRoutes = [
+    {
+      url: baseUrl,
+      lastModified: new Date(),
+      changeFrequency: 'daily' as const,
+      priority: 1,
+    },
+    {
+      url: `${baseUrl}/about`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/teams`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/dashboard`,
+      lastModified: new Date(),
+      changeFrequency: 'daily' as const,
+      priority: 0.9,
+    },
+  ]
+
+  // Club routes
+  const clubRoutes = [
+    'ai-group',
+    'cp-club',
+    'dev-club',
+    'eth-club',
+    'proj-x',
+  ].map((club) => ({
+    url: `${baseUrl}/${club}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.7,
   }))
 
-  return [...routes, ...resourceRoutes]
-} 
+  // Resource routes from domains
+  const resourceRoutes = domains.map((domain) => ({
+    url: `${baseUrl}/dashboard/${domain.resources}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.6,
+  }))
+
+  return [...mainRoutes, ...clubRoutes, ...resourceRoutes]
+}

@@ -24,19 +24,34 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://coc-landing.vercel.app'),
+  metadataBase: new URL('https://communityofcoders.in'),
   title: {
-    default: "Community of Coders VJTI | COC Landing",
+    default: "Community of Coders VJTI | COC",
     template: "%s | Community of Coders VJTI"
   },
-  description: "Access curated educational resources, join tech communities, and explore learning paths for Web Development, AI/ML, Competitive Programming at VJTI.",
-  keywords: ["VJTI", "COC", "tech communities", "educational resources", "web development", "AI/ML", "competitive programming", "student clubs"],
-  authors: [{ name: "Community of Coders" }],
+  description: "Community of Coders (COC) is a student-driven community at VJTI, Mumbai, fostering coding culture through workshops, hackathons, and collaborative learning.",
+  keywords: [
+    "COC VJTI",
+    "Community of Coders",
+    "VJTI coding club",
+    "Mumbai tech community",
+    "student developers",
+    "coding workshops",
+    "hackathons",
+    "programming community",
+    "tech education",
+    "web development",
+    "AI/ML",
+    "blockchain",
+    "competitive programming"
+  ],
+  authors: [{ name: "Community of Coders VJTI" }],
   creator: "Community of Coders VJTI",
   publisher: "VJTI",
   robots: {
     index: true,
     follow: true,
+    nocache: true,
     googleBot: {
       index: true,
       follow: true,
@@ -47,17 +62,18 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    locale: 'en_US',
-    url: 'https://coc-landing.vercel.app',
-    title: 'Community of Coders VJTI',
-    description: 'Access curated educational resources and join tech communities at VJTI.',
+    locale: 'en_IN',
+    url: 'https://communityofcoders.in',
+    title: 'Community of Coders VJTI | COC',
+    description: 'Community of Coders (COC) is a student-driven community at VJTI, Mumbai, fostering coding culture through workshops, hackathons, and collaborative learning.',
     siteName: 'Community of Coders VJTI',
     images: [
       {
         url: '/coc_vjti.jpeg',
         width: 1200,
         height: 630,
-        alt: 'Community of Coders VJTI'
+        alt: 'Community of Coders VJTI Logo',
+        type: 'image/jpeg',
       }
     ],
     countryName: 'India',
@@ -67,21 +83,23 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Community of Coders VJTI',
-    description: 'Access curated educational resources and join tech communities at VJTI.',
+    description: 'Join VJTI\'s premier coding community. Learn, build, and grow with workshops, hackathons, and collaborative projects.',
     creator: '@COC_VJTI',
     images: ['/coc_vjti.jpeg'],
+    site: '@COC_VJTI',
   },
   alternates: {
-    canonical: 'https://coc-landing.vercel.app',
-    languages: {
-      'en-US': 'https://coc-landing.vercel.app/en-US',
-    }
+    canonical: 'https://communityofcoders.in',
   },
   verification: {
-    google: 'your-google-verification-code',
+    google: 'google4bec5d0570054012.html',
   },
   category: 'technology',
-  classification: 'Education & Technology'
+  classification: 'Education & Technology',
+  other: {
+    'google-site-verification': 'google4bec5d0570054012.html',
+    'msvalidate.01': 'add-your-bing-site-verification-here',
+  }
 };
 
 export default function RootLayout({
