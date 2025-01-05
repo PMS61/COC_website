@@ -92,12 +92,12 @@ export const metadata: Metadata = {
     canonical: 'https://communityofcoders.in',
   },
   verification: {
-    google: 'google4bec5d0570054012.html',
+    google: "UXxEL5GiDJuDrXvyPBBEzxvOmPsGLMGQxbGnlnhVxfE",
   },
   category: 'technology',
   classification: 'Education & Technology',
   other: {
-    'google-site-verification': 'google4bec5d0570054012.html',
+    'google-site-verification': "UXxEL5GiDJuDrXvyPBBEzxvOmPsGLMGQxbGnlnhVxfE",
     'msvalidate.01': 'add-your-bing-site-verification-here',
   }
 };
