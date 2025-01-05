@@ -1,26 +1,29 @@
 import { NextResponse } from 'next/server';
-import path from 'path';
-import fs from 'fs/promises';
+import { NextRequest } from 'next/server';
+
+export const runtime = 'edge';
+
+const resources = {
+  "cp": [],
+  "dev": [],
+  "eth": [],
+  "ai": [],
+  "proj-x": []
+};
 
 export async function GET(
-  request: Request,
+  request: NextRequest,
   { params }: { params: { domain: string } }
 ) {
   try {
     const domain = params.domain;
-    const jsonDirectory = path.join(process.cwd(), 'data', 'resources');
-    const fileContents = await fs.readFile(
-      jsonDirectory + `/${domain}.json`,
-      'utf8'
-    );
-    const data = JSON.parse(fileContents);
+    const domainResources = resources[domain as keyof typeof resources] || [];
     
-    return NextResponse.json(data);
-  } catch (error) {
-    console.error(`Error loading ${params.domain} resources:`, error);
+    return NextResponse.json(domainResources);
+  } catch {
     return NextResponse.json(
-      { error: `Failed to load ${params.domain} resources` },
+      { error: "Failed to load domain resources" },
       { status: 500 }
     );
   }
-} 
+}
