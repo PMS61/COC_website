@@ -24,9 +24,11 @@ export default function ResourceTable({ category, domain }: ResourceTableProps) 
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    // file name: data/resources/{domain}.json
     const fetchResources = async () => {
       try {
         setIsLoading(true);
+        console.log(category, domain);
         const response = await fetch(`/api/resources/${domain}`);
         if (!response.ok) {
           throw new Error('Failed to fetch resources');

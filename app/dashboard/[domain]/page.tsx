@@ -26,7 +26,7 @@ export default function DomainPage() {
     (d: Domain) => d.resources === params.domain
   );
 
-  if (!currentDomain) return null;
+  if (!currentDomain) return <div>{params.domain}</div>
 
   return (
     <div className="min-h-screen bg-black px-8 py-6">
@@ -74,6 +74,7 @@ export default function DomainPage() {
                     </h2>
                   </div>
                   <Card className="border-neutral-800/50 bg-neutral-900/30">
+                  {/* This does multiple network requests for each category, must optimise by only one network request*/}
                     <ResourceTable 
                       category={category} 
                       domain={currentDomain.resources} 
