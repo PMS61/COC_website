@@ -1,13 +1,22 @@
 import { Book, Brain, Code2, GraduationCap
        ,  Blocks
        ,  Smartphone
+       , Laptop
        } from "lucide-react";
 
 export const domains = [
   {
+    name: "Coding Basics",
+    resources: "basics",
+    icon: Code2,
+    description: "Resources for learning programming languages and fundamental coding concepts",
+    categories: ["C++", "Java", "Python"],
+    gradient: "from-blue-500 to-cyan-500",
+  },
+  {
     name: "Web Development",
     resources: "web",
-    icon: Code2,
+    icon: Laptop,
     description: "Frontend, Backend, and Full Stack Development Resources",
     categories: ["Frontend", "Backend", "DevOps"],
     gradient: "from-blue-500 to-cyan-500",
@@ -17,7 +26,7 @@ export const domains = [
     resources: "ml",
     icon: Brain,
     description: "AI, Deep Learning, and Data Science Resources",
-    categories: ["AI Fundamentals", "Deep Learning", "NLP", "Computer Vision"],
+    categories: ["AIML Fundamentals", "Deep Learning", "Data Science", "NLP", "CV"],
     gradient: "from-purple-500 to-pink-500",
   },
   {
@@ -33,7 +42,7 @@ export const domains = [
     resources: "blockchain",
     icon: Blocks,
     description: "Web3, Smart Contracts and Decentralized Applications",
-    categories: ["Smart Contracts", "dApps", "Web3", "Cryptocurrency"],
+    categories: ["Web3", "Smart Contracts", "Cryptocurrency"],
     gradient: "from-yellow-500 to-amber-600",
   },
   {
@@ -45,11 +54,16 @@ export const domains = [
       gradient: "from-indigo-500 to-purple-600",
   },
   {
-    name: "Interview Resources",
-    resources: "academics",
-    icon: GraduationCap,
-    description: "Year-wise Academic Resources and Materials",
-    categories: ["First Year", "Second Year", "Third Year", "Final Year"],
-    gradient: "from-green-400 to-emerald-600",
-  },
+  name: "Interview Resources",
+  resources: "academics",
+  icon: GraduationCap,
+  description: "Resources for Internship and Placement Interviews.",
+  categories: [
+    "Interview Experiences",
+    "CS Fundamentals",
+    "Behavioral Questions"
+  ],
+  gradient: "from-green-400 to-emerald-600",
+}
+
 ];

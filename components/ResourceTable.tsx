@@ -34,7 +34,7 @@ export default function ResourceTable({ category, domain }: ResourceTableProps) 
           throw new Error('Failed to fetch resources');
         }
         const data = await response.json();
-        
+
         // Get resources for the specific category from the nested structure
         const categoryResources = data[category] || [];
         setResources(categoryResources);
@@ -54,45 +54,49 @@ export default function ResourceTable({ category, domain }: ResourceTableProps) 
   if (!resources.length) return <div className="p-8 text-center text-neutral-400">No resources found.</div>;
 
   return (
-    <Table>
+    <Table className="table-fixed w-full">
       <TableHeader className="bg-neutral-900/50">
         <TableRow className="border-neutral-800/50 hover:bg-transparent">
-          <TableHead className="text-neutral-400">Name</TableHead>
-          <TableHead className="text-neutral-400">Description</TableHead>
-          <TableHead className="text-neutral-400">Tags</TableHead>
-          <TableHead className="text-neutral-400 text-right">Action</TableHead>
+          <TableHead className="w-1/3 text-neutral-400 px-3">Name</TableHead>
+          <TableHead className="w-1/2 text-neutral-400">Description</TableHead>
+          {domain !== "basics" && (
+            <TableHead className="w-1/2 text-neutral-400">Tags</TableHead>
+          )}
+          <TableHead className="w-1/6 text-neutral-400 text-right pr-3">Action</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
         {resources.map((resource, index) => (
-          <TableRow 
+          <TableRow
             key={`${resource.name}-${index}`}
             className="border-neutral-800/50 hover:bg-neutral-800/50 transition-colors"
           >
-            <TableCell className="font-medium text-neutral-200">
+            <TableCell className="w-1/3 font-medium text-neutral-200">
               {resource.name}
             </TableCell>
-            <TableCell className="text-neutral-400">
+            <TableCell className="w-1/2 text-neutral-400">
               {resource.description}
             </TableCell>
-            <TableCell>
-              <div className="flex flex-wrap gap-2">
-                {resource.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="px-2 py-1 text-xs rounded-md bg-neutral-800/50 text-neutral-300 ring-1 ring-neutral-700/50"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </TableCell>
-            <TableCell className="text-right">
+            {domain !== "basics" && (
+              <TableCell className="w-1/2">
+                <div className="flex flex-wrap gap-2">
+                  {resource.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="px-2 py-1 text-xs rounded-md bg-neutral-800/50 text-neutral-300 ring-1 ring-neutral-700/50"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </TableCell>
+            )}
+            <TableCell className="w-1/6 text-right">
               <Button
                 variant="ghost"
                 size="sm"
                 className="text-blue-400 hover:bg-emerald-500/10 hover:text-emerald-400"
-                onClick={() => window.open(resource.link, '_blank')}
+                onClick={() => window.open(resource.link, "_blank")}
               >
                 <ExternalLink className="w-4 h-4" />
                 <span className="sr-only">Open link</span>

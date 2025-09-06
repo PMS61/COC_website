@@ -1,0 +1,500 @@
+{
+  "basics": {
+    "C++": [
+      {
+        "name": "CodeWithHarry",
+        "description": "Best for Beginner and for CPPS too, advantage being ye Hindi me hai",
+        "link": "https://www.youtube.com/watch?v=j8nAHeVKL08&list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL",
+        "tags": ["C++"]
+      },
+      {
+        "name": "Freecodecamp",
+        "description": "From Beginner to Advanced",
+        "link": "https://www.youtube.com/watch?v=8jLOx1hD3_o&t=34039s",
+        "tags": ["C++"]
+      },
+      {
+        "name": "Caleb Curry",
+        "description": "Succinct and to the point",
+        "link": "https://youtube.com/playlist?list=PL_c9BZzLwBRJVJsIfe97ey45V4LP_HXiG",
+        "tags": ["C++"]
+      },
+      {
+        "name": "C++ - Beginner to Beyond",
+        "description": "An amazing C++ course for beginners, requires 2-3 months of consistent efforts but covers everything in great depth. Highly Recommended",
+        "link": "https://drive.google.com/drive/folders/14CoKhPXX1WqhUep0lhcuP-CH0dyT0ln7?usp=share_link",
+        "tags": ["C++"]
+      }
+    ],
+    "Java": [
+      {
+        "name": "Apna College",
+        "description": "",
+        "link": "https://www.youtube.com/watch?v=yRpLlJmRo2w&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop",
+        "tags": ["Java"]
+      },
+      {
+        "name": "Code with Harry",
+        "description": "",
+        "link": "https://www.youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q",
+        "tags": ["Java"]
+      }
+    ],
+    "Python": [
+      {
+        "name": "CodeWithHarry",
+        "description": "Absolute Beginner",
+        "link": "https://www.youtube.com/watch?v=aqvDTCpNRek&list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME",
+        "tags": ["Python"]
+      },
+      {
+        "name": "Freecodecamp",
+        "description": "From beginner to advanced and applications of the languages",
+        "link": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB",
+        "tags": ["Python"]
+      },
+      {
+        "name": "PythonProgramming",
+        "description": "OOPs related",
+        "link": "https://pythonprogramming.net/introduction-intermediate-python-tutorial/",
+        "tags": ["Python"]
+      },
+      {
+        "name": "Harshit vashisth",
+        "description": "",
+        "link": "https://www.youtube.com/playlist?list=PLwgFb6VsUj_lQTpQKDtLXKXElQychT_2j",
+        "tags": ["Python"]
+      },
+      {
+        "name": "30 days of Python",
+        "description": "",
+        "link": "https://github.com/ashishpatel26/30-Days-Of-Python",
+        "tags": ["Python"]
+      },
+      {
+        "name": "OOPs Python",
+        "description": "",
+        "link": "https://github.com/arvimal/oop_with_python",
+        "tags": ["Python"]
+      },
+      {
+        "name": "Projects to try out",
+        "description": "",
+        "link": "https://www.freecodecamp.org/news/python-projects-for-beginners/",
+        "tags": ["Python"]
+      }
+    ],
+    "C": [
+      {
+        "name": "CS50x Harvard by David Malan",
+        "description": "The classic intro to programming - nothing gets any better, make sure you’ve setup your C++ IDE before starting with this",
+        "link": "https://youtube.com/playlist?list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu",
+        "tags": ["C"]
+      }
+    ]
+  },
+  "web": {
+    "Frontend": [
+      {
+        "name": "CodeWithHarry Web Dev Playlist",
+        "description": "HTML+CSS+JS+Basic Backend",
+        "tags": ["HTML", "CSS", "JS", "Basic Backend"],
+        "link": "https://youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
+      },
+      {
+        "name": "TailWind CSS CWH",
+        "description": "Covers Tailwind in depth, must watch for CSS Haters",
+        "tags": ["Tailwind CSS", "CSS"],
+        "link": "https://www.youtube.com/playlist?list=PLu0W_9lII9ahwFDuExCpPFHAK829Wto2O"
+      },
+      {
+        "name": "Kevin Powell YT Channel for CSS",
+        "description": "CSS God",
+        "tags": ["CSS"],
+        "link": "https://www.youtube.com/kepowob"
+      },
+      {
+        "name": "CodingAddict JS Fundamentals",
+        "description": "Detailed JS Course, highly recommended",
+        "tags": ["JavaScript"],
+        "link": "https://youtu.be/2Ji-clqUYnA"
+      },
+      {
+        "name": "CodingAddict JS Projects",
+        "description": "Corresponding Projects course for the above course",
+        "tags": ["JavaScript", "Projects"],
+        "link": "https://youtu.be/Kp3HGwlXwCk"
+      },
+      {
+        "name": "CodingAddict ReactJS",
+        "description": "Detailed ReactJS Course up to date, highly recommended",
+        "tags": ["ReactJS"],
+        "link": "https://youtu.be/iZhV0bILFb0"
+      },
+      {
+        "name": "CodingAddict ReactJS Projects",
+        "description": "Corresponding Projects course for the above course",
+        "tags": ["ReactJS", "Projects"],
+        "link": "https://youtu.be/ly3m6mv5qvg"
+      },
+      {
+        "name": "React Net Ninja",
+        "description": "A bit outdated but still gold",
+        "tags": ["ReactJS"],
+        "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d"
+      },
+      {
+        "name": "Jack Herrington React Introduction",
+        "description": "Not detailed but a solid intro",
+        "tags": ["ReactJS"],
+        "link": "https://youtube.com/playlist?list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe"
+      },
+      {
+        "name": "CodeWithHarry React Playlist",
+        "description": "Detailed ReactJS Course Desi Bhasha me",
+        "tags": ["ReactJS", "Hindi"],
+        "link": "https://youtube.com/playlist?list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt"
+      },
+      {
+        "name": "NamasteJS",
+        "description": "Amazing JS Course, a season 2.0 for this is in progress too",
+        "tags": ["JavaScript"],
+        "link": "https://youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP"
+      },
+      {
+        "name": "Techgun YouTube Channel HTML, CSS, JS",
+        "description": "Tutorial with conceptual explanation in Hindi",
+        "tags": ["HTML", "CSS", "JavaScript", "Hindi"],
+        "link": "https://youtube.com/playlist?list=PLjpp5kBQLNTSdLVVjU_kea8J8lP24ZseT"
+      },
+      {
+        "name": "Next.js 13 & 14 Course",
+        "link": "https://www.youtube.com/watch?v=843nec-IvW0",
+        "description": "Learn Next.js App Router, Server Components, and more",
+        "tags": ["Next.js", "React", "Full Stack"]
+      }
+    ],
+    "Backend": [
+      {
+        "name": "CodeWithHarry Pug and NodeJS",
+        "description": "Backend Part of CWH’s Webdev Playlist",
+        "tags": ["NodeJS", "Pug", "CWH"],
+        "link": "https://www.youtube.com/playlist?list=PLobAq7hWqZWGTfhj4jNQAVzJd_y6iTErQ"
+      },
+      {
+        "name": "NodeJs Playlist By Thapa Technical",
+        "description": "Includes Node, Express, Mongo & Auth Desi Bhasha me",
+        "tags": ["NodeJS", "ExpressJS", "MongoDB", "Authentication", "Hindi"],
+        "link": "https://www.youtube.com/playlist?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8"
+      },
+      {
+        "name": "CodingAddict NodeJS and ExpressJS",
+        "description": "Detailed NodeJS Course, Highly recommended",
+        "tags": ["NodeJS", "ExpressJS"],
+        "link": "https://youtu.be/TNV0_7QRDwY"
+      },
+      {
+        "name": "CodingAddict NodeJS Project with MongoDB",
+        "description": "Corresponding Projects Course for the above course, covers an intro to MongoDB and Mongoose",
+        "tags": ["NodeJS", "MongoDB", "Mongoose", "Projects"],
+        "link": "https://youtu.be/jIsj0upCBAM"
+      },
+      {
+        "name": "Corey Schafer Flask Playlist",
+        "description": "The classic Flask course, might be a bit outdated but still relevant",
+        "tags": ["Flask", "Python"],
+        "link": "https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH"
+      },
+      {
+        "name": "CodeWithHarry Flask Playlist",
+        "description": "Exhaustive course for Flask",
+        "tags": ["Flask", "Python", "CWH"],
+        "link": "https://youtube.com/playlist?list=PLu0W_9lII9agAiWp6Y41ueUKx1VcTRxmf"
+      },
+      {
+        "name": "Traversy Media 7 Hour Course",
+        "description": "Prereqs: Python",
+        "tags": ["Django", "Python"],
+        "link": "https://youtu.be/PtQiiknWUcI"
+      },
+      {
+        "name": "CodingEntrepreneus Django Playlist",
+        "description": "Prereqs: Python. This course covers everything about Django",
+        "tags": ["Django", "Python"],
+        "link": "https://www.youtube.com/playlist?list=PLEsfXFp6DpzRMby_cSoWTFw8zaMdTEXgL"
+      },
+      {
+        "name": "Firebase Tutorial by The Net Ninja",
+        "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb",
+        "description": null,
+        "tags": ["Firebase", "Tutorial"]
+      },
+      {
+        "name": "Firebase Firestore Tutorial",
+        "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9itfjle0ji1xOZ2cjRGY_WB",
+        "description": null,
+        "tags": ["Firebase", "Firestore", "Tutorial"]
+      },
+      {
+        "name": "Firebase Realtime Database",
+        "link": "https://www.youtube.com/playlist?list=PLl-K7zZEsYLmgdxMEHar35Wo26fLWm9BI",
+        "description": null,
+        "tags": ["Firebase", "Realtime Database", "Tutorial"]
+      }
+    ],
+    "DevOps": [
+      {
+        "name": "Docker & Kubernetes",
+        "link": "https://www.youtube.com/watch?v=Wf2eSG3owoA",
+        "description": "Learn containerization and orchestration",
+        "tags": ["Docker", "Kubernetes", "DevOps"]
+      }
+    ]
+  },
+  "appdev": {
+    "Flutter": [
+      {
+        "name": "Flutter Tutorial by The Net Ninja",
+        "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ",
+        "description": "Basic Concepts + 2 Mini Projects",
+        "tags": ["Flutter", "Beginner", "Projects"]
+      },
+      {
+        "name": "Dart and Flutter Detailed Course by FreeCodeCamp and Vandad",
+        "link": "https://youtu.be/VPvVD8t02U8",
+        "description": "Includes literally everything A-Z up to date - even covers Firebase. Most recommended",
+        "tags": ["Flutter", "Dart", "Comprehensive", "Firebase"]
+      },
+      {
+        "name": "Codepur Flutter",
+        "link": "https://www.youtube.com/watch?v=j-LOab_PzzU",
+        "description": "Covers Basics of Flutter + 1 Project",
+        "tags": ["Flutter", "Beginner", "Hindi"]
+      },
+      {
+        "name": "Firebase Setup for Flutter App",
+        "link": "https://youtu.be/sz4slPFwEvs",
+        "description": "",
+        "tags": ["Firebase", "Flutter", "Setup"]
+      }
+    ],
+    "React Native": [
+      {
+        "name": "React Native Tutorial",
+        "type": "youtube",
+        "link": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "description": "Build mobile apps with React Native",
+        "tags": ["React Native", "Mobile", "JavaScript"]
+      }
+    ],
+    "Android": [
+      {
+        "name": "CodeWithHarry Appdev Basics in Java",
+        "link": "https://youtu.be/mXjZQX3UzOs",
+        "description": "Highly recommended for beginners",
+        "tags": ["Android", "Java", "Beginner"]
+      },
+      {
+        "name": "Philipp Lackner Kotlin Basics",
+        "link": "https://youtube.com/playlist?list=PLQkwcJG4YTCRSQikwhtoApYs9ij_Hc5Z9",
+        "description": "Philipp Lackner is THE GOD for Kotlin",
+        "tags": ["Android", "Kotlin", "Beginner"]
+      },
+      {
+        "name": "Philipp Lackner Android Fundamentals",
+        "link": "https://youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX",
+        "description": "Covers core Android development concepts",
+        "tags": ["Android", "Kotlin", "Fundamentals"]
+      },
+      {
+        "name": "Kotlin Tutorial By Smartherd ( Basic Concepts )",
+        "link": "https://www.youtube.com/playlist?list=PLlxmoA0rQ-LwgK1JsnMsakYNACYGa1cjR",
+        "description": "Beginner-friendly Kotlin basics",
+        "tags": ["Android", "Kotlin", "Beginner"]
+      },
+      {
+        "name": "Android Basics in Kotlin course | Android Developers",
+        "link": "https://developer.android.com/courses/android-basics-kotlin/course?authuser=2",
+        "description": "Google’s Official Course",
+        "tags": ["Android", "Kotlin", "Official"]
+      },
+      {
+        "name": "Kotlin Basics By CheezyCode",
+        "link": "https://youtube.com/playlist?list=PLRKyZvuMYSIMW3-rSOGCkPlO1z_IYJy3G",
+        "description": "Extremely useful for kotlin beginners",
+        "tags": ["Android", "Kotlin", "Hindi", "Beginner"]
+      }
+    ],
+    "iOS": [
+      {
+        "name": "Swift Programming Tutorial by FreeCodeCamp",
+        "link": "https://youtu.be/8Xg7E9shq0U?si=tkfEeifhjVv1-Uc4",
+        "description": "Course by freecodecamp always recommended.",
+        "tags": ["iOS", "Swift"]
+      }
+    ]
+  },
+  "dsa-cp": {},
+  "blockchain": {
+    "Web3": [
+      {
+        "name": "A-Z Blockchain (Udemy)",
+        "link": "https://drive.google.com/drive/folders/167Pvw7rgMig0282asdPC0yMAPsKg76-L",
+        "description": "Prereqs: Python",
+        "tags": ["Blockchain", "Udemy", "Python"]
+      },
+      {
+        "name": "Blockchain, Solidity, and Full Stack Web3 Development with JavaScript",
+        "link": "https://youtu.be/gyMwXuJrbJQ",
+        "description": "Prereqs: MERN Stack",
+        "tags": ["Blockchain", "Solidity", "Web3", "JavaScript"]
+      }
+    ],
+    "Smart Contracts": [
+      {
+      "name": "Solidity, Blockchain, and Smart Contract Course",
+      "link": "https://youtu.be/M576WGiDBdQ",
+      "description": "Prereqs: Python",
+      "tags": ["Solidity", "Blockchain", "Smart Contract", "Python"]
+      }
+    ],
+    "Cryptocurrency": [
+      {
+      "name": "Working of Bitcoin",
+      "link": "https://youtu.be/bBC-nXj3Ng4",
+      "description": "3B1B",
+      "tags": ["Bitcoin", "Blockchain"]
+    },
+    {
+      "name": "Theoretical Blockchain and Applications in Finance",
+      "link": "https://youtube.com/playlist?list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn",
+      "description": "",
+      "tags": ["Blockchain", "Finance", "Theory"]
+    }
+    ]
+  },
+  "ml": {
+    "AIML Fundamentals": [
+      {
+        "name": "Coursera ML Specialization By Andrew Ng (Python Version)",
+        "link": "https://www.coursera.org/specializations/machine-learning-introduction",
+        "description": "Andrew Ng is the god of ML. Most exhaustive and recommended course. Prereqs: Python. Apply for Financial Aid on all 5 courses.",
+        "tags": ["ML", "Fundamentals", "Comprehensive", "Python"]
+      },
+      {
+        "name": "ML A to Z (Covers the practical applications of all ML Models)",
+        "link": "https://drive.google.com/drive/u/0/folders/1I2N9lj-xn38RuzIaJmIjFCOGlweCvs_w",
+        "description": "Covers the practical applications of all ML Models. Prereqs: Python, Python Libs.",
+        "tags": ["ML", "Applications", "Python"]
+      },
+      {
+        "name": "Python for Data Science and Machine Learning Bootcamp",
+        "link": "https://mega.nz/folder/6Jo2nKBT#VuVmexjJFQYF-xfGGBs60w/folder/jII3hKoK",
+        "description": "Covers everything from scratch, contains python basics and all libraries also.",
+        "tags": ["Python", "Data Science", "ML", "Beginner", "Comprehensive"]
+      }
+    ],
+    "Deep Learning": [
+      {
+        "name": "3B1B Neural Networks",
+        "link": "https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+        "description": "Basics Of neural networks.",
+        "tags": ["Neural Networks", "Deep Learning", "Basics"]
+      },
+      {
+        "name": "Coursera Deep Learning Specialisation",
+        "link": "https://www.coursera.org/specializations/deep-learning",
+        "description": "Course by Andrew Ng, Highly Recommended. Covers CNNs, RNNs as well.",
+        "tags": ["Neural Networks", "Deep Learning", "CNN", "RNN"]
+      }
+    ],
+    "Data Science": [
+      {
+        "name": "Numpy : Basics",
+        "link": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+        "description": "Numpy Basics",
+        "tags": ["Data Science", "Numpy", "Basics"]
+      },
+      {
+        "name": "Pandas : Basics",
+        "link": "https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS",
+        "description": "Pandas Basics",
+        "tags": ["Data Science", "Pandas", "Basics"]
+      },
+      {
+        "name": "Matplotlib : Basics",
+        "link": "https://www.youtube.com/watch?v=3Xc3CA655Y4",
+        "description": "Matplotlib Basics",
+        "tags": ["Data Science", "Matplotlib", "Basics"]
+      },
+      {
+        "name": "Seaborn : Basics",
+        "link": "https://www.youtube.com/watch?v=TLdXM0A7SR8",
+        "description": "Seaborn Basics",
+        "tags": ["Data Science", "Seaborn", "Basics"]
+      },
+      {
+        "name": "Basic ML : Basics",
+        "link": "https://www.youtube.com/watch?v=NWONeJKn6kc",
+        "description": "Basic ML Concepts",
+        "tags": ["Data Science", "ML", "Basics"]
+      },
+      {
+        "name": "Scikit learn : Basics",
+        "link": "https://www.youtube.com/watch?v=pqNCD_5r0IU",
+        "description": "Scikit learn Basics",
+        "tags": ["Data Science", "Scikit-learn", "Basics"]
+      },
+      {
+        "name": "Numpy Basics From SciPy Conf",
+        "link": "https://youtu.be/ZB7BZMhfPgk",
+        "description": "Exhaustive and amazing Numpy tutorial.",
+        "tags": ["Data Science", "Numpy", "Comprehensive"]
+      },
+      {
+        "name": "Keith Galli Numpy Basics",
+        "link": "https://youtu.be/GB9ByFAIAH4",
+        "description": "Another Amazing Tutorial on Numpy.",
+        "tags": ["Data Science", "Numpy", "Tutorial"]
+      },
+      {
+        "name": "Pandas Basics From SciPy Conf",
+        "link": "https://youtu.be/5rNu16O3YNE",
+        "description": "Exhaustive for Pandas.",
+        "tags": ["Data Science", "Pandas", "Comprehensive"]
+      },
+      {
+        "name": "Keith Galli Pandas Basics",
+        "link": "https://youtu.be/vmEHCJofslg",
+        "description": "Another exhaustive tutorial for Pandas.",
+        "tags": ["Data Science", "Pandas", "Tutorial"]
+      },
+      {
+        "name": "Pandas Practice with Keith Galli",
+        "link": "https://youtu.be/eMOA1pPVUc4",
+        "description": "Pandas practice on real datasets.",
+        "tags": ["Data Science", "Pandas", "Practice"]
+      },
+      {
+        "name": "Anatomy of Matplotlib Conference",
+        "link": "https://youtu.be/6gdNUDs6QPc",
+        "description": "Best tutorial on Matplotlib ever - from its creator.",
+        "tags": ["Data Science", "Matplotlib", "Comprehensive"]
+      },
+      {
+        "name": "Keith Galli Matplotlib Part 1",
+        "link": "https://youtu.be/DAQNHzOcO5A",
+        "description": "Matplotlib tutorial Part 1.",
+        "tags": ["Data Science", "Matplotlib", "Tutorial"]
+      },
+      {
+        "name": "Keith Galli Matplotlib Part 2",
+        "link": "https://youtu.be/0P7QnIQDBJY",
+        "description": "Matplotlib tutorial Part 2.",
+        "tags": ["Data Science", "Matplotlib", "Tutorial"]
+      }
+    ],
+    "NLP": [],
+    "CV": []
+  }
+}
