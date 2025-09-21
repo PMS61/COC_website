@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Link from 'next/link';
 import { signIn, signOut, useSession } from 'next-auth/react';
 import { posthog } from '@/lib/posthog';
@@ -9,6 +9,8 @@ const Navbar = () => {
   const [isClubsOpen, setIsClubsOpen] = useState(false);
   const [isProfileOpen, setIsProfileOpen] = useState(false);
   const { data: session } = useSession();
+  const clubsTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const profileTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const handleSignIn = async () => {
     posthog.capture('sign_in_clicked', { location: 'navbar' });
@@ -18,6 +20,34 @@ const Navbar = () => {
   const handleSignOut = async () => {
     posthog.capture('sign_out_clicked', { location: 'navbar' });
     await signOut({ callbackUrl: '/' });
+  };
+
+  const handleClubsMouseEnter = () => {
+    if (clubsTimeoutRef.current) {
+      clearTimeout(clubsTimeoutRef.current);
+      clubsTimeoutRef.current = null;
+    }
+    setIsClubsOpen(true);
+  };
+
+  const handleClubsMouseLeave = () => {
+    clubsTimeoutRef.current = setTimeout(() => {
+      setIsClubsOpen(false);
+    }, 300); // 300ms delay before closing
+  };
+
+  const handleProfileMouseEnter = () => {
+    if (profileTimeoutRef.current) {
+      clearTimeout(profileTimeoutRef.current);
+      profileTimeoutRef.current = null;
+    }
+    setIsProfileOpen(true);
+  };
+
+  const handleProfileMouseLeave = () => {
+    profileTimeoutRef.current = setTimeout(() => {
+      setIsProfileOpen(false);
+    }, 300); // 300ms delay before closing
   };
 
   const clubs = [
@@ -43,15 +73,12 @@ const Navbar = () => {
             <Link href="/about" className="text-gray-300 hover:text-green-400 transition-colors font-montserrat text-sm">
               About
             </Link>
-            <Link href="/features" className="text-gray-300 hover:text-green-400 transition-colors font-montserrat text-sm">
-              Features
-            </Link>
             <Link href="/teams" className="text-gray-300 hover:text-green-400 transition-colors font-montserrat text-sm">
               Teams
             </Link>
             
             {/* Clubs Dropdown */}
-            <div className="relative" onMouseEnter={() => setIsClubsOpen(true)} onMouseLeave={() => setIsClubsOpen(false)}>
+            <div className="relative" onMouseEnter={handleClubsMouseEnter} onMouseLeave={handleClubsMouseLeave}>
               <button className="text-gray-300 hover:text-green-400 transition-colors font-montserrat text-sm">
                 Clubs
               </button>
@@ -75,16 +102,11 @@ const Navbar = () => {
               )}
             </div>
 
-            <Link href="/community" className="text-gray-300 hover:text-green-400 transition-colors font-montserrat text-sm">
-              Community
-            </Link>
-            <Link href="/blog" className="text-gray-300 hover:text-green-400 transition-colors font-montserrat text-sm">
-              Blog
-            </Link>
+            
           </div>
 
           {session ? (
-            <div className="relative" onMouseEnter={() => setIsProfileOpen(true)} onMouseLeave={() => setIsProfileOpen(false)}>
+            <div className="relative" onMouseEnter={handleProfileMouseEnter} onMouseLeave={handleProfileMouseLeave}>
               <button className="flex items-center space-x-2 focus:outline-none">
                 {session.user?.image ? (
                   <Image
