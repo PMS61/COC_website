@@ -249,6 +249,38 @@
         "description": "Learn containerization and orchestration",
         "tags": ["Docker", "Kubernetes", "DevOps"]
       }
+    ],
+    "WebScraping": [
+      {
+        "name": "Web Scraping with Python - Beautiful Soup Crash Course",
+        "link": "https://youtu.be/XVv6mJpFOb0?si=32NxBy8wNUNEhFnc4",
+        "description": "BeautifulSoup is suitable for small scraping projects, do begin with this before considering Scrapy",
+        "tags": ["Python", "Beautiful Soup"]
+      },
+      {
+        "name": "Scrapy Playlist - Basics of Scrapy",
+        "link": "https://youtube.com/playlist?list=PLhTjy8cBISEqkN-5Ku_kXG4QW33sxQo0t&si=Nl-Cd6X9FvmPPFPC",
+        "description": "Personally used this to get familiar with the framework",
+        "tags": ["Scrapy", "Python"]
+      },
+      {
+        "name": "Scrapy Course – Python Web Scraping for Beginners",
+        "link": "https://youtu.be/mBoX_JCKZTE?si=dB2BTEPBhWjD74sP",
+        "description": "A very new tutorial, haven’t tried it personally - But FreeCodeCamp courses are always reliable!",
+        "tags": ["Scrapy", "Python", "FreeCodeCamp"]
+      },
+      {
+        "name": "Python Automation and Testing",
+        "link": "https://drive.google.com/drive/folders/1w1Xy60T_1u-KVzvt0NlMYuguqf87miK0?usp=share_link",
+        "description": "An introductory course from LinkedIn Premium Learning Resources",
+        "tags": ["Python", "Automation"]
+      },
+      {
+        "name": "Using Python for Automation",
+        "link": "https://drive.google.com/drive/folders/15uhFWzwki-d_GOYfL6k28JhfulUmsZQc?usp=share_link",
+        "description": "Also from LinkedIn Premium Learning Resources",
+        "tags": ["Python", "Automation"]
+      }
     ]
   },
   "appdev": {
@@ -334,7 +366,9 @@
       }
     ]
   },
-  "dsa-cp": {},
+  "dsa-cp": {
+
+  },
   "blockchain": {
     "Web3": [
       {
@@ -406,6 +440,12 @@
         "link": "https://www.coursera.org/specializations/deep-learning",
         "description": "Course by Andrew Ng, Highly Recommended. Covers CNNs, RNNs as well.",
         "tags": ["Neural Networks", "Deep Learning", "CNN", "RNN"]
+      },
+      {
+        "name": "Pytorch",
+        "link": "https://www.youtube.com/watch?v=V_xro1bcAuA&t=2598s",
+        "description": "Daniel Bourke",
+        "tags": ["Pytorch"]
       }
     ],
     "Data Science": [
@@ -494,7 +534,281 @@
         "tags": ["Data Science", "Matplotlib", "Tutorial"]
       }
     ],
-    "NLP": [],
-    "CV": []
+    "NLP": [
+      {
+        "name": "NLP (Crash Course)",
+        "link": "https://www.youtube.com/playlist?list=PLw3N0OFSAYSEC_XokEcX8uzJmEZSoNGuS",
+        "description": "T15",
+        "tags": ["NLP", "Crash Course"]
+      },
+      {
+        "name": "NLP (In depth Course) - Coursera NLP Course by DeepLearning.AI",
+        "link": "https://www.coursera.org/specializations/natural-language-processing",
+        "description": "Highly recommended course for Introduction to neural networks and deep learning",
+        "tags": ["NLP", "Deep Learning", "Coursera"]
+      },
+      {
+        "name": "Recommender Systems - University of Minnesota",
+        "link": "https://www.coursera.org/specializations/recommender-systems",
+        "description": "Consult ML team before starting",
+        "tags": ["Recommender Systems", "ML"]
+      },
+      {
+        "name": "Langchain - Basics",
+        "link": "https://www.youtube.com/playlist?list=PLqZXAkvF1bPNQER9mLmDbntNfSpzdDIU5",
+        "description": "Basics",
+        "tags": ["Langchain", "Agentic AI"]
+      },
+      {
+        "name": "Langchain - Applications",
+        "link": "https://www.youtube.com/playlist?list=PL8motc6AQftkp6hksbpzRps_NQvEKYOky",
+        "description": "Applications",
+        "tags": ["Langchain", "Agentic AI"]
+      }
+    ],
+    "CV": [
+      {
+        "name": "Introduction to OpenCV",
+        "link": "https://www.youtube.com/watch?si=ZDgZXA19y9tFXZ_o&v=WQeoO7MI0Bs&feature=youtu.be&ab_channel=Murtaza%27sWorkshop-RoboticsandAI",
+        "description": "Applicative based introduction to CV",
+        "tags": ["Computer Vision", "OpenCV"]
+      },
+      {
+        "name": "Deep Learning for Computer Vision",
+        "link": "https://www.youtube.com/watch?v=IA3WxTTPXqQ&ab_channel=freeCodeCamp.org",
+        "description": "Long detailed CV guide",
+        "tags": ["Computer Vision", "Deep Learning"]
+      }
+    ],
+    "GenAI": [
+      {
+        "name": "LLM from Scratch",
+        "link": "https://www.youtube.com/watch?v=UU1WVnMk4E8&t=607s",
+        "description": null,
+        "tags": ["Generative AI", "LLM"]
+      },
+      {
+        "name": "Generative AI full course",
+        "link": "https://www.youtube.com/watch?v=mEsleV16qdo&t=2730s",
+        "description": null,
+        "tags": ["Generative AI"]
+      },
+      {
+        "name": "Vector Databases",
+        "link": "https://www.youtube.com/watch?v=8KrTO9bS91s",
+        "description": null,
+        "tags": ["Generative AI", "Vector Databases"]
+      },
+      {
+        "name": "LLama from scratch",
+        "link": "https://www.youtube.com/watch?v=oM4VmoabDAI",
+        "description": null,
+        "tags": ["Generative AI", "LLaMA"]
+      },
+      {
+        "name": "RAG from scratch",
+        "link": "https://www.youtube.com/watch?v=sVcwVQRHIc8",
+        "description": null,
+        "tags": ["Generative AI", "RAG"]
+      }
+    ]
+  },
+  "cybersec": {
+    "General Skills": [
+      {
+        "name": "VMware Installation Guide",
+        "link": "https://youtu.be/66qMLGCGP5s?feature=shared",
+        "description": null,
+        "tags": ["Cybersecurity", "Setup"]
+      },
+      {
+        "name": "Kali Linux - ISO File",
+        "link": "https://www.kali.org/get-kali/#kali-installer-images",
+        "description": null,
+        "tags": ["Cybersecurity", "Setup", "Kali Linux"]
+      },
+      {
+        "name": "Configuring Kali Linux",
+        "link": "https://youtu.be/U0AMu3rznc4?feature=shared",
+        "description": null,
+        "tags": ["Cybersecurity", "Setup", "Kali Linux"]
+      },
+      {
+        "name": "Kali Linux Commands Speedrun",
+        "link": "https://youtu.be/gd7BXuUQ91w?feature=shared",
+        "description": null,
+        "tags": ["Cybersecurity", "General Skills", "Kali Linux"]
+      },
+      {
+        "name": "Solve Bandit",
+        "link": "https://overthewire.org/wargames/bandit/",
+        "description": "Solve Bandit after learning Linux commands properly",
+        "tags": ["Cybersecurity", "General Skills", "Linux Commands"]
+      },
+      {
+        "name": "Tryhackme Rooms",
+        "link": "https://tryhackme.com/r/hacktivities",
+        "description": "Choose basic rooms like NMAP, Linux, etc.",
+        "tags": ["Cybersecurity", "General Skills", "TryHackMe"]
+      },
+      {
+        "name": "PicoCTF General Challenges",
+        "link": "https://play.picoctf.org/practice?category=5&page=1",
+        "description": null,
+        "tags": ["Cybersecurity", "General Skills", "PicoCTF"]
+      }
+    ],
+    "Web Exploitation": [
+      {
+        "name": "Portswigger Labs",
+        "link": "https://portswigger.net/web-security/learning-paths",
+        "description": null,
+        "tags": ["Cybersecurity", "Web Exploitation", "Portswigger"]
+      },
+      {
+        "name": "Natas Wargame (OverTheWire)",
+        "link": "https://overthewire.org/wargames/natas/",
+        "description": null,
+        "tags": ["Cybersecurity", "Web Exploitation", "OverTheWire"]
+      },
+      {
+        "name": "Web Application Vulnerabilities Explained by Nahamsec",
+        "link": "https://youtube.com/playlist?list=PLKAaMVNxvLmBtguL9K62x6vEQJDe5r50G&feature=shared",
+        "description": null,
+        "tags": ["Cybersecurity", "Web Exploitation", "Vulnerabilities"]
+      },
+      {
+        "name": "Tryhackme Rooms",
+        "link": "https://tryhackme.com/r/hacktivities",
+        "description": null,
+        "tags": ["Cybersecurity", "Web Exploitation", "TryHackMe"]
+      },
+      {
+        "name": "PicoCTF Web Challenges",
+        "link": "https://play.picoctf.org/practice?category=1&page=1",
+        "description": null,
+        "tags": ["Cybersecurity", "Web Exploitation", "PicoCTF"]
+      }
+    ],
+    "Books & Tutorials": [
+      {
+        "name": "Penetration Testing: A Hands-On Introduction by Georgia Weidman",
+        "link": "https://www.amazon.com/Penetration-Testing-Hands-Introduction-Ethical/dp/1593275641",
+        "description": null,
+        "tags": ["Cybersecurity", "Books & Tutorials", "Penetration Testing"]
+      },
+      {
+        "name": "CTF Field Guide by Trail of Bits",
+        "link": null,
+        "description": null,
+        "tags": ["Cybersecurity", "Books & Tutorials", "CTF"]
+      },
+      {
+        "name": "Open Security Training",
+        "link": "http://opensecuritytraining.info",
+        "description": "Free courses for cybersecurity topics.",
+        "tags": ["Cybersecurity", "Books & Tutorials"]
+      },
+      {
+        "name": "Hack The Box Academy",
+        "link": "https://academy.hackthebox.com",
+        "description": "Detailed courses for hacking skills. (Best Academy, but paid)",
+        "tags": ["Cybersecurity", "Books & Tutorials", "Hack The Box"]
+      },
+      {
+        "name": "Hackers101",
+        "link": "https://www.hackers101.com",
+        "description": "Learn to hack with their free courses.",
+        "tags": ["Cybersecurity", "Books & Tutorials"]
+      }
+    ]
+  },
+  "interview": {
+    "CS Fundamentals": [
+        {
+            "name": "Striver OS",
+            "link": "https://takeuforward.org/operating-system/most-asked-operating-system-interview-questions",
+            "description": "Operating Systems Sheet by Striver",
+            "tags": [
+                "Operating Systems"
+            ]
+        },
+        {
+            "name": "Striver DBMS",
+            "link": "https://takeuforward.org/dbms/most-asked-dbms-interview-questions",
+            "description": "DBMS sheet by Striver",
+            "tags": [
+                "Database Management Systems"
+            ]
+        },
+        {
+            "name": "Striver CN",
+            "link": "",
+            "description": "Computer Network sheet by Striver",
+            "tags": [
+                "Computer Network"
+            ]
+        },
+        {
+            "name": "Love Babbar OOP",
+            "link": "https://whimsical.com/object-oriented-programming-cheatsheet-by-love-babbar-YbSgLatbWQ4R5paV7EgqFw",
+            "description": "Object-Oriented Programming cheatsheet by Love Babbar",
+            "tags": [
+                "Object-Oriented Programming",
+                "OOP"
+            ]
+        },
+        {
+            "name": "Love Babbar DBMS",
+            "link": "https://whimsical.com/dbms-roadmap-by-love-babbar-FmUi8ffVop33t3MmpVxPCo",
+            "description": "Database Management Systems roadmap by Love Babbar",
+            "tags": [
+                "Database Management Systems",
+                "DBMS"
+            ]
+        },
+        {
+            "name": "Love Babbar OS",
+            "link": "https://whimsical.com/operating-system-cheatsheet-by-love-babbar-S9tuWBCSQfzoBRF5EDNinQ",
+            "description": "Operating Systems cheatsheet by Love Babbar",
+            "tags": [
+                "Operating Systems",
+                "OS"
+            ]
+        },
+        {
+            "name": "Exponent System Design Interview Prep",
+            "link": "https://www.youtube.com/playlist?list=PLrtCHHeadkHp92TyPt1Fj452_VGLipJnL",
+            "description": "A comprehensive playlist covering various system design interview questions and solutions.",
+            "tags": [
+                "System Design",
+                "Interview Preparation"
+            ]
+        },
+        {
+            "name": "System Design Interview - Exponent",
+            "link": "https://www.youtube.com/watch?v=07BVxmVFDGY&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=32",
+            "description": "Detailed walkthrough of system design problems and their solutions by Exponent.",
+            "tags": [
+                "System Design",
+                "Interview Preparation"
+            ]
+        },
+        {
+          "name": "LLD Playlist by Coder Army",
+          "link": "https://www.youtube.com/playlist?list=PLQEaRBV9gAFvzp6XhcNFpk1WdOcyVo9qT",
+          "description": "Recommended playlist for Low Level Design questions.",
+          "tags": ["Low Level Design", "System Design"]
+        }
+    ],
+    "Interview Experiences": [
+      {
+        "name": "Drive Link",
+        "link": "https://drive.google.com/drive/u/2/folders/1BCKFtr9FWDI0iJ74bTYJdsYS74uKBq98",
+        "description": "Contains all internship and placement interview experiences by students.",
+        "tags": ["Interview Preparation", "Interview Experiences"]
+      }
+    ]
   }
 }
+

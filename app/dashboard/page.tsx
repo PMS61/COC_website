@@ -62,22 +62,23 @@ export default function Dashboard() {
                     <h3 className="text-lg font-semibold text-neutral-200 group-hover:text-white transition-colors">
                       {domain.name}
                     </h3>
-                    <p className="text-sm text-neutral-400 mt-1">
+                    <p className="text-sm text-neutral-400 mt-1 line-clamp-2 h-[40px]">
                       {domain.description}
                     </p>
-                    <div className="flex flex-wrap gap-2 mt-2">
-                      {domain.categories.map((category) => (
-                        <span
-                          key={category}
-                          className="px-2.5 py-1 text-xs rounded-md bg-neutral-800/50 text-neutral-300 ring-1 ring-neutral-700/50"
-                        >
-                          {category}
-                        </span>
-                      ))}
-                    </div>
+                    {/* <div className="flex flex-wrap gap-2 mt-2">
+        {domain.categories.map((category) => (
+          <span
+            key={category}
+            className="px-2.5 py-1 text-xs rounded-md bg-neutral-800/50 text-neutral-300 ring-1 ring-neutral-700/50"
+          >
+            {category}
+          </span>
+        ))}
+      </div> */}
                   </div>
                 </div>
               </Card>
+
             </Link>
           ))}
         </motion.div>
