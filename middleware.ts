@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
 export async function middleware(request: NextRequest) {
-  const token = await getToken({ req: request });
+  // const token = await getToken({ req: request });
   
   // if (!token && request.nextUrl.pathname.startsWith("/dashboard")) {
   //   const signInUrl = new URL("/auth/signin", request.url);
@@ -11,11 +11,11 @@ export async function middleware(request: NextRequest) {
   //   return NextResponse.redirect(signInUrl);
   // }
 
-  if (token && !token.email?.endsWith('.vjti.ac.in')) {
-    return NextResponse.redirect(new URL("/auth/error", request.url));
-  }
+  // if (token && !token.email?.endsWith('.vjti.ac.in')) {
+  //   return NextResponse.redirect(new URL("/auth/error", request.url));
+  // }
   
-  return NextResponse.next();
+  // return NextResponse.next();
 }
 
 export const config = {

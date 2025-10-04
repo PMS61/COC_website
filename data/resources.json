@@ -1,0 +1,1541 @@
+{
+  "basics": {
+    "C++": [
+      {
+        "name": "CodeWithHarry",
+        "description": "Best for Beginner and for CPPS too, advantage being ye Hindi me hai",
+        "link": "https://www.youtube.com/watch?v=j8nAHeVKL08&list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL",
+        "tags": [
+          "C++"
+        ]
+      },
+      {
+        "name": "Freecodecamp",
+        "description": "From Beginner to Advanced",
+        "link": "https://www.youtube.com/watch?v=8jLOx1hD3_o&t=34039s",
+        "tags": [
+          "C++"
+        ]
+      },
+      {
+        "name": "Caleb Curry",
+        "description": "Succinct and to the point",
+        "link": "https://youtube.com/playlist?list=PL_c9BZzLwBRJVJsIfe97ey45V4LP_HXiG",
+        "tags": [
+          "C++"
+        ]
+      },
+      {
+        "name": "C++ - Beginner to Beyond",
+        "description": "An amazing C++ course for beginners, requires 2-3 months of consistent efforts but covers everything in great depth. Highly Recommended",
+        "link": "https://drive.google.com/drive/folders/14CoKhPXX1WqhUep0lhcuP-CH0dyT0ln7?usp=share_link",
+        "tags": [
+          "C++"
+        ]
+      }
+    ],
+    "Java": [
+      {
+        "name": "Apna College",
+        "description": "",
+        "link": "https://www.youtube.com/watch?v=yRpLlJmRo2w&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop",
+        "tags": [
+          "Java"
+        ]
+      },
+      {
+        "name": "Code with Harry",
+        "description": "",
+        "link": "https://www.youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q",
+        "tags": [
+          "Java"
+        ]
+      }
+    ],
+    "Python": [
+      {
+        "name": "CodeWithHarry",
+        "description": "Absolute Beginner",
+        "link": "https://www.youtube.com/watch?v=aqvDTCpNRek&list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME",
+        "tags": [
+          "Python"
+        ]
+      },
+      {
+        "name": "Freecodecamp",
+        "description": "From beginner to advanced and applications of the languages",
+        "link": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB",
+        "tags": [
+          "Python"
+        ]
+      },
+      {
+        "name": "PythonProgramming",
+        "description": "OOPs related",
+        "link": "https://pythonprogramming.net/introduction-intermediate-python-tutorial/",
+        "tags": [
+          "Python"
+        ]
+      },
+      {
+        "name": "Harshit vashisth",
+        "description": "",
+        "link": "https://www.youtube.com/playlist?list=PLwgFb6VsUj_lQTpQKDtLXKXElQychT_2j",
+        "tags": [
+          "Python"
+        ]
+      },
+      {
+        "name": "30 days of Python",
+        "description": "",
+        "link": "https://github.com/ashishpatel26/30-Days-Of-Python",
+        "tags": [
+          "Python"
+        ]
+      },
+      {
+        "name": "OOPs Python",
+        "description": "",
+        "link": "https://github.com/arvimal/oop_with_python",
+        "tags": [
+          "Python"
+        ]
+      },
+      {
+        "name": "Projects to try out",
+        "description": "",
+        "link": "https://www.freecodecamp.org/news/python-projects-for-beginners/",
+        "tags": [
+          "Python"
+        ]
+      }
+    ],
+    "C": [
+      {
+        "name": "CS50x Harvard by David Malan",
+        "description": "The classic intro to programming - nothing gets any better, make sure you’ve setup your C++ IDE before starting with this",
+        "link": "https://youtube.com/playlist?list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu",
+        "tags": [
+          "C"
+        ]
+      }
+    ]
+  },
+  "web": {
+    "Frontend": [
+      {
+        "name": "CodeWithHarry Web Dev Playlist",
+        "description": "HTML+CSS+JS+Basic Backend",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JS",
+          "Basic Backend"
+        ],
+        "link": "https://youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
+      },
+      {
+        "name": "TailWind CSS CWH",
+        "description": "Covers Tailwind in depth, must watch for CSS Haters",
+        "tags": [
+          "Tailwind CSS",
+          "CSS"
+        ],
+        "link": "https://www.youtube.com/playlist?list=PLu0W_9lII9ahwFDuExCpPFHAK829Wto2O"
+      },
+      {
+        "name": "Kevin Powell YT Channel for CSS",
+        "description": "CSS God",
+        "tags": [
+          "CSS"
+        ],
+        "link": "https://www.youtube.com/kepowob"
+      },
+      {
+        "name": "CodingAddict JS Fundamentals",
+        "description": "Detailed JS Course, highly recommended",
+        "tags": [
+          "JavaScript"
+        ],
+        "link": "https://youtu.be/2Ji-clqUYnA"
+      },
+      {
+        "name": "CodingAddict JS Projects",
+        "description": "Corresponding Projects course for the above course",
+        "tags": [
+          "JavaScript",
+          "Projects"
+        ],
+        "link": "https://youtu.be/Kp3HGwlXwCk"
+      },
+      {
+        "name": "CodingAddict ReactJS",
+        "description": "Detailed ReactJS Course up to date, highly recommended",
+        "tags": [
+          "ReactJS"
+        ],
+        "link": "https://youtu.be/iZhV0bILFb0"
+      },
+      {
+        "name": "CodingAddict ReactJS Projects",
+        "description": "Corresponding Projects course for the above course",
+        "tags": [
+          "ReactJS",
+          "Projects"
+        ],
+        "link": "https://youtu.be/ly3m6mv5qvg"
+      },
+      {
+        "name": "React Net Ninja",
+        "description": "A bit outdated but still gold",
+        "tags": [
+          "ReactJS"
+        ],
+        "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d"
+      },
+      {
+        "name": "Jack Herrington React Introduction",
+        "description": "Not detailed but a solid intro",
+        "tags": [
+          "ReactJS"
+        ],
+        "link": "https://youtube.com/playlist?list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe"
+      },
+      {
+        "name": "CodeWithHarry React Playlist",
+        "description": "Detailed ReactJS Course Desi Bhasha me",
+        "tags": [
+          "ReactJS",
+          "Hindi"
+        ],
+        "link": "https://youtube.com/playlist?list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt"
+      },
+      {
+        "name": "NamasteJS",
+        "description": "Amazing JS Course, a season 2.0 for this is in progress too",
+        "tags": [
+          "JavaScript"
+        ],
+        "link": "https://youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP"
+      },
+      {
+        "name": "Techgun YouTube Channel HTML, CSS, JS",
+        "description": "Tutorial with conceptual explanation in Hindi",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Hindi"
+        ],
+        "link": "https://youtube.com/playlist?list=PLjpp5kBQLNTSdLVVjU_kea8J8lP24ZseT"
+      },
+      {
+        "name": "Next.js 13 & 14 Course",
+        "link": "https://www.youtube.com/watch?v=843nec-IvW0",
+        "description": "Learn Next.js App Router, Server Components, and more",
+        "tags": [
+          "Next.js",
+          "React",
+          "Full Stack"
+        ]
+      }
+    ],
+    "Backend": [
+      {
+        "name": "CodeWithHarry Pug and NodeJS",
+        "description": "Backend Part of CWH’s Webdev Playlist",
+        "tags": [
+          "NodeJS",
+          "Pug",
+          "CWH"
+        ],
+        "link": "https://www.youtube.com/playlist?list=PLobAq7hWqZWGTfhj4jNQAVzJd_y6iTErQ"
+      },
+      {
+        "name": "NodeJs Playlist By Thapa Technical",
+        "description": "Includes Node, Express, Mongo & Auth Desi Bhasha me",
+        "tags": [
+          "NodeJS",
+          "ExpressJS",
+          "MongoDB",
+          "Authentication",
+          "Hindi"
+        ],
+        "link": "https://www.youtube.com/playlist?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8"
+      },
+      {
+        "name": "CodingAddict NodeJS and ExpressJS",
+        "description": "Detailed NodeJS Course, Highly recommended",
+        "tags": [
+          "NodeJS",
+          "ExpressJS"
+        ],
+        "link": "https://youtu.be/TNV0_7QRDwY"
+      },
+      {
+        "name": "CodingAddict NodeJS Project with MongoDB",
+        "description": "Corresponding Projects Course for the above course, covers an intro to MongoDB and Mongoose",
+        "tags": [
+          "NodeJS",
+          "MongoDB",
+          "Mongoose",
+          "Projects"
+        ],
+        "link": "https://youtu.be/jIsj0upCBAM"
+      },
+      {
+        "name": "Corey Schafer Flask Playlist",
+        "description": "The classic Flask course, might be a bit outdated but still relevant",
+        "tags": [
+          "Flask",
+          "Python"
+        ],
+        "link": "https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH"
+      },
+      {
+        "name": "CodeWithHarry Flask Playlist",
+        "description": "Exhaustive course for Flask",
+        "tags": [
+          "Flask",
+          "Python",
+          "CWH"
+        ],
+        "link": "https://youtube.com/playlist?list=PLu0W_9lII9agAiWp6Y41ueUKx1VcTRxmf"
+      },
+      {
+        "name": "Traversy Media 7 Hour Course",
+        "description": "Prereqs: Python",
+        "tags": [
+          "Django",
+          "Python"
+        ],
+        "link": "https://youtu.be/PtQiiknWUcI"
+      },
+      {
+        "name": "CodingEntrepreneus Django Playlist",
+        "description": "Prereqs: Python. This course covers everything about Django",
+        "tags": [
+          "Django",
+          "Python"
+        ],
+        "link": "https://www.youtube.com/playlist?list=PLEsfXFp6DpzRMby_cSoWTFw8zaMdTEXgL"
+      },
+      {
+        "name": "Firebase Tutorial by The Net Ninja",
+        "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb",
+        "description": null,
+        "tags": [
+          "Firebase",
+          "Tutorial"
+        ]
+      },
+      {
+        "name": "Firebase Firestore Tutorial",
+        "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9itfjle0ji1xOZ2cjRGY_WB",
+        "description": null,
+        "tags": [
+          "Firebase",
+          "Firestore",
+          "Tutorial"
+        ]
+      },
+      {
+        "name": "Firebase Realtime Database",
+        "link": "https://www.youtube.com/playlist?list=PLl-K7zZEsYLmgdxMEHar35Wo26fLWm9BI",
+        "description": null,
+        "tags": [
+          "Firebase",
+          "Realtime Database",
+          "Tutorial"
+        ]
+      }
+    ],
+    "DevOps": [
+      {
+        "name": "Docker & Kubernetes",
+        "link": "https://www.youtube.com/watch?v=Wf2eSG3owoA",
+        "description": "Learn containerization and orchestration",
+        "tags": [
+          "Docker",
+          "Kubernetes",
+          "DevOps"
+        ]
+      }
+    ],
+    "WebScraping": [
+      {
+        "name": "Web Scraping with Python - Beautiful Soup Crash Course",
+        "link": "https://youtu.be/XVv6mJpFOb0?si=32NxBy8wNUNEhFnc4",
+        "description": "BeautifulSoup is suitable for small scraping projects, do begin with this before considering Scrapy",
+        "tags": [
+          "Python",
+          "Beautiful Soup"
+        ]
+      },
+      {
+        "name": "Scrapy Playlist - Basics of Scrapy",
+        "link": "https://youtube.com/playlist?list=PLhTjy8cBISEqkN-5Ku_kXG4QW33sxQo0t&si=Nl-Cd6X9FvmPPFPC",
+        "description": "Personally used this to get familiar with the framework",
+        "tags": [
+          "Scrapy",
+          "Python"
+        ]
+      },
+      {
+        "name": "Scrapy Course – Python Web Scraping for Beginners",
+        "link": "https://youtu.be/mBoX_JCKZTE?si=dB2BTEPBhWjD74sP",
+        "description": "A very new tutorial, haven’t tried it personally - But FreeCodeCamp courses are always reliable!",
+        "tags": [
+          "Scrapy",
+          "Python",
+          "FreeCodeCamp"
+        ]
+      },
+      {
+        "name": "Python Automation and Testing",
+        "link": "https://drive.google.com/drive/folders/1w1Xy60T_1u-KVzvt0NlMYuguqf87miK0?usp=share_link",
+        "description": "An introductory course from LinkedIn Premium Learning Resources",
+        "tags": [
+          "Python",
+          "Automation"
+        ]
+      },
+      {
+        "name": "Using Python for Automation",
+        "link": "https://drive.google.com/drive/folders/15uhFWzwki-d_GOYfL6k28JhfulUmsZQc?usp=share_link",
+        "description": "Also from LinkedIn Premium Learning Resources",
+        "tags": [
+          "Python",
+          "Automation"
+        ]
+      }
+    ]
+  },
+  "appdev": {
+    "Flutter": [
+      {
+        "name": "Flutter Tutorial by The Net Ninja",
+        "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ",
+        "description": "Basic Concepts + 2 Mini Projects",
+        "tags": [
+          "Flutter",
+          "Beginner",
+          "Projects"
+        ]
+      },
+      {
+        "name": "Dart and Flutter Detailed Course by FreeCodeCamp and Vandad",
+        "link": "https://youtu.be/VPvVD8t02U8",
+        "description": "Includes literally everything A-Z up to date - even covers Firebase. Most recommended",
+        "tags": [
+          "Flutter",
+          "Dart",
+          "Comprehensive",
+          "Firebase"
+        ]
+      },
+      {
+        "name": "Codepur Flutter",
+        "link": "https://www.youtube.com/watch?v=j-LOab_PzzU",
+        "description": "Covers Basics of Flutter + 1 Project",
+        "tags": [
+          "Flutter",
+          "Beginner",
+          "Hindi"
+        ]
+      },
+      {
+        "name": "Firebase Setup for Flutter App",
+        "link": "https://youtu.be/sz4slPFwEvs",
+        "description": "",
+        "tags": [
+          "Firebase",
+          "Flutter",
+          "Setup"
+        ]
+      }
+    ],
+    "React Native": [
+      {
+        "name": "React Native Tutorial",
+        "type": "youtube",
+        "link": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "description": "Build mobile apps with React Native",
+        "tags": [
+          "React Native",
+          "Mobile",
+          "JavaScript"
+        ]
+      }
+    ],
+    "Android": [
+      {
+        "name": "CodeWithHarry Appdev Basics in Java",
+        "link": "https://youtu.be/mXjZQX3UzOs",
+        "description": "Highly recommended for beginners",
+        "tags": [
+          "Android",
+          "Java",
+          "Beginner"
+        ]
+      },
+      {
+        "name": "Philipp Lackner Kotlin Basics",
+        "link": "https://youtube.com/playlist?list=PLQkwcJG4YTCRSQikwhtoApYs9ij_Hc5Z9",
+        "description": "Philipp Lackner is THE GOD for Kotlin",
+        "tags": [
+          "Android",
+          "Kotlin",
+          "Beginner"
+        ]
+      },
+      {
+        "name": "Philipp Lackner Android Fundamentals",
+        "link": "https://youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX",
+        "description": "Covers core Android development concepts",
+        "tags": [
+          "Android",
+          "Kotlin",
+          "Fundamentals"
+        ]
+      },
+      {
+        "name": "Kotlin Tutorial By Smartherd ( Basic Concepts )",
+        "link": "https://www.youtube.com/playlist?list=PLlxmoA0rQ-LwgK1JsnMsakYNACYGa1cjR",
+        "description": "Beginner-friendly Kotlin basics",
+        "tags": [
+          "Android",
+          "Kotlin",
+          "Beginner"
+        ]
+      },
+      {
+        "name": "Android Basics in Kotlin course | Android Developers",
+        "link": "https://developer.android.com/courses/android-basics-kotlin/course?authuser=2",
+        "description": "Google’s Official Course",
+        "tags": [
+          "Android",
+          "Kotlin",
+          "Official"
+        ]
+      },
+      {
+        "name": "Kotlin Basics By CheezyCode",
+        "link": "https://youtube.com/playlist?list=PLRKyZvuMYSIMW3-rSOGCkPlO1z_IYJy3G",
+        "description": "Extremely useful for kotlin beginners",
+        "tags": [
+          "Android",
+          "Kotlin",
+          "Hindi",
+          "Beginner"
+        ]
+      }
+    ],
+    "iOS": [
+      {
+        "name": "Swift Programming Tutorial by FreeCodeCamp",
+        "link": "https://youtu.be/8Xg7E9shq0U?si=tkfEeifhjVv1-Uc4",
+        "description": "Course by freecodecamp always recommended.",
+        "tags": [
+          "iOS",
+          "Swift"
+        ]
+      }
+    ]
+  },
+  "dsa-cp": {},
+  "blockchain": {
+    "Basics": [
+      {
+        "name": "Learn How To Build Your First Blockchain | Blockchain A-Z™",
+        "description": "A comprehensive course to learn and build your first blockchain.",
+        "tags": [
+          "video",
+          "blockchain",
+          "building"
+        ],
+        "link": "https://drive.google.com/drive/folders/167Pvw7rgMig0282asdPC0yMAPsKg76-L"
+      },
+      {
+        "name": "Code Eater Blockchain Playlist",
+        "description": "A playlist from Code Eater covering various blockchain topics.",
+        "tags": [
+          "video",
+          "blockchain",
+          "playlist"
+        ],
+        "link": "https://www.youtube.com/playlist?list=PLgPmWS2dQHW-BRQCQCNYgmHUfCN115pn0"
+      },
+      {
+        "name": "Bitcoin by Satoshi Nakamoto.pdf",
+        "description": "The original whitepaper by Satoshi Nakamoto introducing Bitcoin.",
+        "tags": [
+          "reading",
+          "bitcoin",
+          "whitepaper"
+        ],
+        "link": "https://bitcoin.org/bitcoin.pdf"
+      },
+      {
+        "name": "Why do we need Blockchain? | Coinmonks | Medium",
+        "description": "An article explaining the necessity and benefits of blockchain technology.",
+        "tags": [
+          "reading",
+          "blockchain",
+          "introduction"
+        ],
+        "link": "https://medium.com/coinmonks/why-do-we-need-blockchain-63b706b542b5#:~:text=This%20eliminates%20duplicate%20records%2C%20lowers,cannot%20be%20removed%20or%20modified."
+      },
+      {
+        "name": "The Meaning of Decentralization | by Vitalik Buterin | Medium",
+        "description": "An article by Vitalik Buterin discussing the concept of decentralization in blockchain.",
+        "tags": [
+          "reading",
+          "decentralization",
+          "vitalik buterin"
+        ],
+        "link": "https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274"
+      },
+      {
+        "name": "Guide to Ethereum | ethereum.org",
+        "description": "An official guide to understanding Ethereum.",
+        "tags": [
+          "reading",
+          "ethereum",
+          "guide"
+        ],
+        "link": "https://ethereum.org/en/learn/"
+      },
+      {
+        "name": "Roadmap to become a Blockchain Developer",
+        "description": "A roadmap outlining the steps to become a blockchain developer.",
+        "tags": [
+          "reading",
+          "roadmap",
+          "developer"
+        ],
+        "link": "https://roadmap.sh/blockchain"
+      }
+    ],
+    "Web3": [
+      {
+        "name": "Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript – 32-Hour Course",
+        "description": "A comprehensive 32-hour course covering blockchain, Solidity, and full-stack Web3 development using JavaScript.",
+        "tags": [
+          "video",
+          "web3",
+          "solidity",
+          "javascript",
+          "full-stack"
+        ],
+        "link": "https://youtu.be/gyMwXuJrbJQ"
+      },
+      {
+        "name": "Solidity, Blockchain, and Smart Contract Course – Beginner to Expert Python Tutorial",
+        "description": "A tutorial for learning Solidity, blockchain, and smart contracts, from beginner to expert level, using Python.",
+        "tags": [
+          "video",
+          "web3",
+          "solidity",
+          "python",
+          "smart contracts"
+        ],
+        "link": "https://youtu.be/M576WGiDBdQ"
+      },
+      {
+        "name": "CodeEater Youtube Channel",
+        "description": "The YouTube channel of CodeEater, offering various Web3 related content.",
+        "tags": [
+          "video",
+          "web3",
+          "youtube channel"
+        ],
+        "link": "https://www.youtube.com/@Codeeater21"
+      },
+      {
+        "name": "Daulat Hussain’s Youtube Channel",
+        "description": "The YouTube channel of Daulat Hussain, with content related to Web3.",
+        "tags": [
+          "video",
+          "web3",
+          "youtube channel"
+        ],
+        "link": "https://www.youtube.com/@daulathussain"
+      },
+      {
+        "name": "Alchemy University",
+        "description": "An online university providing courses and resources for Web3 development.",
+        "tags": [
+          "reading",
+          "web3",
+          "education",
+          "courses"
+        ],
+        "link": "https://university.alchemy.com/"
+      },
+      {
+        "name": "LearnWeb3",
+        "description": "A platform offering resources and paths to learn Web3 development.",
+        "tags": [
+          "reading",
+          "web3",
+          "learning platform"
+        ],
+        "link": "https://learnweb3.io/"
+      },
+      {
+        "name": "Blocktrain",
+        "description": "A resource for learning about blockchain and Web3.",
+        "tags": [
+          "reading",
+          "web3",
+          "blockchain"
+        ],
+        "link": "https://www.blocktrain.info/"
+      },
+      {
+        "name": "Metaschool Courses",
+        "description": "Courses provided by Metaschool for Web3 education.",
+        "tags": [
+          "reading",
+          "web3",
+          "courses"
+        ],
+        "link": "https://metaschool.so/courses"
+      },
+      {
+        "name": "CryptoZombies",
+        "description": "An interactive tutorial game to learn Solidity programming for Ethereum.",
+        "tags": [
+          "reading",
+          "solidity",
+          "ethereum",
+          "game",
+          "interactive"
+        ],
+        "link": "https://cryptozombies.io/"
+      }
+    ],
+    "Cryptocurrency": [
+      {
+        "name": "Working of Bitcoin",
+        "link": "https://youtu.be/bBC-nXj3Ng4",
+        "description": "3B1B",
+        "tags": [
+          "Bitcoin",
+          "Blockchain"
+        ]
+      },
+      {
+        "name": "MIT 15.S12 Blockchain and Money",
+        "description": "An additional resource from MIT covering blockchain and its relation to money.",
+        "tags": [
+          "video",
+          "blockchain",
+          "money",
+          "advanced"
+        ],
+        "link": "https://youtube.com/playlist?list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn"
+      }
+    ]
+  },
+  "ml": {
+    "AIML Fundamentals": [
+      {
+        "name": "Coursera ML Specialization By Andrew Ng (Python Version)",
+        "link": "https://www.coursera.org/specializations/machine-learning-introduction",
+        "description": "Andrew Ng is the god of ML. Most exhaustive and recommended course. Prereqs: Python. Apply for Financial Aid on all 5 courses.",
+        "tags": [
+          "ML",
+          "Fundamentals",
+          "Comprehensive",
+          "Python"
+        ]
+      },
+      {
+        "name": "ML A to Z (Covers the practical applications of all ML Models)",
+        "link": "https://drive.google.com/drive/u/0/folders/1I2N9lj-xn38RuzIaJmIjFCOGlweCvs_w",
+        "description": "Covers the practical applications of all ML Models. Prereqs: Python, Python Libs.",
+        "tags": [
+          "ML",
+          "Applications",
+          "Python"
+        ]
+      },
+      {
+        "name": "Python for Data Science and Machine Learning Bootcamp",
+        "link": "https://mega.nz/folder/6Jo2nKBT#VuVmexjJFQYF-xfGGBs60w/folder/jII3hKoK",
+        "description": "Covers everything from scratch, contains python basics and all libraries also.",
+        "tags": [
+          "Python",
+          "Data Science",
+          "ML",
+          "Beginner",
+          "Comprehensive"
+        ]
+      }
+    ],
+    "Deep Learning": [
+      {
+        "name": "3B1B Neural Networks",
+        "link": "https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+        "description": "Basics Of neural networks.",
+        "tags": [
+          "Neural Networks",
+          "Deep Learning",
+          "Basics"
+        ]
+      },
+      {
+        "name": "Coursera Deep Learning Specialisation",
+        "link": "https://www.coursera.org/specializations/deep-learning",
+        "description": "Course by Andrew Ng, Highly Recommended. Covers CNNs, RNNs as well.",
+        "tags": [
+          "Neural Networks",
+          "Deep Learning",
+          "CNN",
+          "RNN"
+        ]
+      },
+      {
+        "name": "Pytorch",
+        "link": "https://www.youtube.com/watch?v=V_xro1bcAuA&t=2598s",
+        "description": "Daniel Bourke",
+        "tags": [
+          "Pytorch"
+        ]
+      }
+    ],
+    "Data Science": [
+      {
+        "name": "Numpy : Basics",
+        "link": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+        "description": "Numpy Basics",
+        "tags": [
+          "Data Science",
+          "Numpy",
+          "Basics"
+        ]
+      },
+      {
+        "name": "Pandas : Basics",
+        "link": "https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS",
+        "description": "Pandas Basics",
+        "tags": [
+          "Data Science",
+          "Pandas",
+          "Basics"
+        ]
+      },
+      {
+        "name": "Matplotlib : Basics",
+        "link": "https://www.youtube.com/watch?v=3Xc3CA655Y4",
+        "description": "Matplotlib Basics",
+        "tags": [
+          "Data Science",
+          "Matplotlib",
+          "Basics"
+        ]
+      },
+      {
+        "name": "Seaborn : Basics",
+        "link": "https://www.youtube.com/watch?v=TLdXM0A7SR8",
+        "description": "Seaborn Basics",
+        "tags": [
+          "Data Science",
+          "Seaborn",
+          "Basics"
+        ]
+      },
+      {
+        "name": "Basic ML : Basics",
+        "link": "https://www.youtube.com/watch?v=NWONeJKn6kc",
+        "description": "Basic ML Concepts",
+        "tags": [
+          "Data Science",
+          "ML",
+          "Basics"
+        ]
+      },
+      {
+        "name": "Scikit learn : Basics",
+        "link": "https://www.youtube.com/watch?v=pqNCD_5r0IU",
+        "description": "Scikit learn Basics",
+        "tags": [
+          "Data Science",
+          "Scikit-learn",
+          "Basics"
+        ]
+      },
+      {
+        "name": "Numpy Basics From SciPy Conf",
+        "link": "https://youtu.be/ZB7BZMhfPgk",
+        "description": "Exhaustive and amazing Numpy tutorial.",
+        "tags": [
+          "Data Science",
+          "Numpy",
+          "Comprehensive"
+        ]
+      },
+      {
+        "name": "Keith Galli Numpy Basics",
+        "link": "https://youtu.be/GB9ByFAIAH4",
+        "description": "Another Amazing Tutorial on Numpy.",
+        "tags": [
+          "Data Science",
+          "Numpy",
+          "Tutorial"
+        ]
+      },
+      {
+        "name": "Pandas Basics From SciPy Conf",
+        "link": "https://youtu.be/5rNu16O3YNE",
+        "description": "Exhaustive for Pandas.",
+        "tags": [
+          "Data Science",
+          "Pandas",
+          "Comprehensive"
+        ]
+      },
+      {
+        "name": "Keith Galli Pandas Basics",
+        "link": "https://youtu.be/vmEHCJofslg",
+        "description": "Another exhaustive tutorial for Pandas.",
+        "tags": [
+          "Data Science",
+          "Pandas",
+          "Tutorial"
+        ]
+      },
+      {
+        "name": "Pandas Practice with Keith Galli",
+        "link": "https://youtu.be/eMOA1pPVUc4",
+        "description": "Pandas practice on real datasets.",
+        "tags": [
+          "Data Science",
+          "Pandas",
+          "Practice"
+        ]
+      },
+      {
+        "name": "Anatomy of Matplotlib Conference",
+        "link": "https://youtu.be/6gdNUDs6QPc",
+        "description": "Best tutorial on Matplotlib ever - from its creator.",
+        "tags": [
+          "Data Science",
+          "Matplotlib",
+          "Comprehensive"
+        ]
+      },
+      {
+        "name": "Keith Galli Matplotlib Part 1",
+        "link": "https://youtu.be/DAQNHzOcO5A",
+        "description": "Matplotlib tutorial Part 1.",
+        "tags": [
+          "Data Science",
+          "Matplotlib",
+          "Tutorial"
+        ]
+      },
+      {
+        "name": "Keith Galli Matplotlib Part 2",
+        "link": "https://youtu.be/0P7QnIQDBJY",
+        "description": "Matplotlib tutorial Part 2.",
+        "tags": [
+          "Data Science",
+          "Matplotlib",
+          "Tutorial"
+        ]
+      }
+    ],
+    "NLP": [
+      {
+        "name": "NLP (Crash Course)",
+        "link": "https://www.youtube.com/playlist?list=PLw3N0OFSAYSEC_XokEcX8uzJmEZSoNGuS",
+        "description": "T15",
+        "tags": [
+          "NLP",
+          "Crash Course"
+        ]
+      },
+      {
+        "name": "NLP (In depth Course) - Coursera NLP Course by DeepLearning.AI",
+        "link": "https://www.coursera.org/specializations/natural-language-processing",
+        "description": "Highly recommended course for Introduction to neural networks and deep learning",
+        "tags": [
+          "NLP",
+          "Deep Learning",
+          "Coursera"
+        ]
+      },
+      {
+        "name": "Recommender Systems - University of Minnesota",
+        "link": "https://www.coursera.org/specializations/recommender-systems",
+        "description": "Consult ML team before starting",
+        "tags": [
+          "Recommender Systems",
+          "ML"
+        ]
+      },
+      {
+        "name": "Langchain - Basics",
+        "link": "https://www.youtube.com/playlist?list=PLqZXAkvF1bPNQER9mLmDbntNfSpzdDIU5",
+        "description": "Basics",
+        "tags": [
+          "Langchain",
+          "Agentic AI"
+        ]
+      },
+      {
+        "name": "Langchain - Applications",
+        "link": "https://www.youtube.com/playlist?list=PL8motc6AQftkp6hksbpzRps_NQvEKYOky",
+        "description": "Applications",
+        "tags": [
+          "Langchain",
+          "Agentic AI"
+        ]
+      }
+    ],
+    "CV": [
+      {
+        "name": "Introduction to OpenCV",
+        "link": "https://www.youtube.com/watch?si=ZDgZXA19y9tFXZ_o&v=WQeoO7MI0Bs&feature=youtu.be&ab_channel=Murtaza%27sWorkshop-RoboticsandAI",
+        "description": "Applicative based introduction to CV",
+        "tags": [
+          "Computer Vision",
+          "OpenCV"
+        ]
+      },
+      {
+        "name": "Deep Learning for Computer Vision",
+        "link": "https://www.youtube.com/watch?v=IA3WxTTPXqQ&ab_channel=freeCodeCamp.org",
+        "description": "Long detailed CV guide",
+        "tags": [
+          "Computer Vision",
+          "Deep Learning"
+        ]
+      }
+    ],
+    "GenAI": [
+      {
+        "name": "LLM from Scratch",
+        "link": "https://www.youtube.com/watch?v=UU1WVnMk4E8&t=607s",
+        "description": null,
+        "tags": [
+          "Generative AI",
+          "LLM"
+        ]
+      },
+      {
+        "name": "Generative AI full course",
+        "link": "https://www.youtube.com/watch?v=mEsleV16qdo&t=2730s",
+        "description": null,
+        "tags": [
+          "Generative AI"
+        ]
+      },
+      {
+        "name": "Vector Databases",
+        "link": "https://www.youtube.com/watch?v=8KrTO9bS91s",
+        "description": null,
+        "tags": [
+          "Generative AI",
+          "Vector Databases"
+        ]
+      },
+      {
+        "name": "LLama from scratch",
+        "link": "https://www.youtube.com/watch?v=oM4VmoabDAI",
+        "description": null,
+        "tags": [
+          "Generative AI",
+          "LLaMA"
+        ]
+      },
+      {
+        "name": "RAG from scratch",
+        "link": "https://www.youtube.com/watch?v=sVcwVQRHIc8",
+        "description": null,
+        "tags": [
+          "Generative AI",
+          "RAG"
+        ]
+      }
+    ]
+  },
+  "cybersec": {
+    "Setup": [
+      {
+        "name": "VMware Installation Guide",
+        "description": "Watch the guide here",
+        "link": "https://youtu.be/66qMLGCGP5s?feature=shared",
+        "tags": [
+          "setup",
+          "guide"
+        ]
+      },
+      {
+        "name": "Kali Linux - ISO File",
+        "description": "Download the ISO file here",
+        "link": "https://www.kali.org/get-kali/#kali-installer-images",
+        "tags": [
+          "setup",
+          "tool",
+          "guide"
+        ]
+      },
+      {
+        "name": "Configuring Kali Linux",
+        "description": "Watch the configuration tutorial here",
+        "link": "https://youtu.be/U0AMu3rznc4?feature=shared",
+        "tags": [
+          "setup",
+          "guide"
+        ]
+      }
+    ],
+    "General Skills": [
+      {
+        "name": "VMware Installation Guide",
+        "link": "https://youtu.be/66qMLGCGP5s?feature=shared",
+        "description": null,
+        "tags": [
+          "Cybersecurity",
+          "Setup"
+        ]
+      },
+      {
+        "name": "Kali Linux - ISO File",
+        "link": "https://www.kali.org/get-kali/#kali-installer-images",
+        "description": null,
+        "tags": [
+          "Cybersecurity",
+          "Setup",
+          "Kali Linux"
+        ]
+      },
+      {
+        "name": "Configuring Kali Linux",
+        "link": "https://youtu.be/U0AMu3rznc4?feature=shared",
+        "description": null,
+        "tags": [
+          "Cybersecurity",
+          "Setup",
+          "Kali Linux"
+        ]
+      },
+      {
+        "name": "Kali Linux Commands Speedrun",
+        "link": "https://youtu.be/gd7BXuUQ91w?feature=shared",
+        "description": null,
+        "tags": [
+          "Cybersecurity",
+          "General Skills",
+          "Kali Linux"
+        ]
+      },
+      {
+        "name": "Solve Bandit",
+        "link": "https://overthewire.org/wargames/bandit/",
+        "description": "Solve Bandit after learning Linux commands properly",
+        "tags": [
+          "Cybersecurity",
+          "General Skills",
+          "Linux Commands"
+        ]
+      },
+      {
+        "name": "Tryhackme Rooms",
+        "link": "https://tryhackme.com/r/hacktivities",
+        "description": "Choose basic rooms like NMAP, Linux, etc.",
+        "tags": [
+          "Cybersecurity",
+          "General Skills",
+          "TryHackMe"
+        ]
+      },
+      {
+        "name": "PicoCTF General Challenges",
+        "link": "https://play.picoctf.org/practice?category=5&page=1",
+        "description": null,
+        "tags": [
+          "Cybersecurity",
+          "General Skills",
+          "PicoCTF"
+        ]
+      }
+    ],
+    "Web Exploitation": [
+      {
+        "name": "Portswigger Labs",
+        "link": "https://portswigger.net/web-security/learning-paths",
+        "description": null,
+        "tags": [
+          "Cybersecurity",
+          "Web Exploitation",
+          "Portswigger"
+        ]
+      },
+      {
+        "name": "Natas Wargame (OverTheWire)",
+        "link": "https://overthewire.org/wargames/natas/",
+        "description": null,
+        "tags": [
+          "Cybersecurity",
+          "Web Exploitation",
+          "OverTheWire"
+        ]
+      },
+      {
+        "name": "Web Application Vulnerabilities Explained by Nahamsec",
+        "link": "https://youtube.com/playlist?list=PLKAaMVNxvLmBtguL9K62x6vEQJDe5r50G&feature=shared",
+        "description": null,
+        "tags": [
+          "Cybersecurity",
+          "Web Exploitation",
+          "Vulnerabilities"
+        ]
+      },
+      {
+        "name": "Tryhackme Rooms",
+        "link": "https://tryhackme.com/r/hacktivities",
+        "description": null,
+        "tags": [
+          "Cybersecurity",
+          "Web Exploitation",
+          "TryHackMe"
+        ]
+      },
+      {
+        "name": "PicoCTF Web Challenges",
+        "link": "https://play.picoctf.org/practice?category=1&page=1",
+        "description": null,
+        "tags": [
+          "Cybersecurity",
+          "Web Exploitation",
+          "PicoCTF"
+        ]
+      }
+    ],
+    "Specialised Training": [
+      {
+        "name": "PWN College",
+        "description": "Focus on binary exploitation and pwning. (Best resource for reverse engineering)",
+        "link": "https://pwn.college",
+        "tags": [
+          "specialized",
+          "binary",
+          "reverse-engineering",
+          "practice"
+        ]
+      },
+      {
+        "name": "PortSwigger Web Security Academy",
+        "description": "Learn about web vulnerabilities. (Best platform for web exploitation)",
+        "link": "https://portswigger.net/web-security",
+        "tags": [
+          "specialized",
+          "webapp",
+          "practice"
+        ]
+      },
+      {
+        "name": "CryptoHack",
+        "description": "Sharpen your cryptography skills.",
+        "link": "https://cryptohack.org",
+        "tags": [
+          "specialized",
+          "crypto",
+          "practice"
+        ]
+      },
+      {
+        "name": "Guyinatuxedo GitHub",
+        "description": "Learn reverse engineering skills.",
+        "link": "https://github.com/guyinatuxedo",
+        "tags": [
+          "specialized",
+          "reverse-engineering",
+          "resources"
+        ]
+      }
+    ],
+    "Platforms": [
+      {
+        "name": "PicoCTF",
+        "description": "Great for students and beginners. (Solve Beginner CTFs here)",
+        "link": "https://picoctf.com",
+        "tags": [
+          "beginner",
+          "CTF",
+          "practice"
+        ]
+      },
+      {
+        "name": "TryHackMe",
+        "description": "Interactive labs for various skill levels. (BEST PLATFORM)",
+        "link": "https://tryhackme.com",
+        "tags": [
+          "beginner",
+          "labs",
+          "practice"
+        ]
+      },
+      {
+        "name": "RootMe",
+        "description": "Practice with real vulnerabilities.",
+        "link": "https://www.root-me.org",
+        "tags": [
+          "beginner",
+          "practice",
+          "vulnerabilities"
+        ]
+      },
+      {
+        "name": "OverTheWire",
+        "description": "Classic wargames to build your foundational skills. (WARGAMES : Play Bandit and Natas)",
+        "link": "https://overthewire.org",
+        "tags": [
+          "beginner",
+          "wargames",
+          "practice"
+        ]
+      },
+      {
+        "name": "Vulnhub",
+        "description": "Download vulnerable machines for offline practice.",
+        "link": "https://vulnhub.com",
+        "tags": [
+          "beginner",
+          "practice",
+          "vulnerable-machines"
+        ]
+      },
+      {
+        "name": "Hack This Site",
+        "description": "Learn WebApp security and exploitation.",
+        "link": "https://www.hackthissite.org",
+        "tags": [
+          "beginner",
+          "webapp",
+          "practice"
+        ]
+      },
+      {
+        "name": "Hack The Box",
+        "description": "Test your skills on active challenges. (Similar to TryHackMe, labs are a bit harder)",
+        "link": "https://hackthebox.com",
+        "tags": [
+          "intermediate",
+          "labs",
+          "practice"
+        ]
+      },
+      {
+        "name": "Google CTF",
+        "description": "Participate in Google’s annual CTF.",
+        "link": "https://capturetheflag.withgoogle.com",
+        "tags": [
+          "intermediate",
+          "CTF",
+          "competition"
+        ]
+      },
+      {
+        "name": "CMD Challenge",
+        "description": "Test your bash and shell command skills.",
+        "link": "https://cmdchallenge.com",
+        "tags": [
+          "intermediate",
+          "practice",
+          "bash",
+          "shell"
+        ]
+      },
+      {
+        "name": "PentesterLab",
+        "description": "Learn pentesting with hands-on exercises.",
+        "link": "https://pentesterlab.com",
+        "tags": [
+          "intermediate",
+          "labs",
+          "practice"
+        ]
+      },
+      {
+        "name": "Attack-Defense",
+        "description": "Realistic attack-defense scenarios.",
+        "link": "https://attackdefense.com",
+        "tags": [
+          "advanced",
+          "labs",
+          "practice"
+        ]
+      },
+      {
+        "name": "Hacker101 CTF",
+        "description": "CTF challenges designed by HackerOne.",
+        "link": "https://ctf.hacker101.com",
+        "tags": [
+          "advanced",
+          "CTF",
+          "practice"
+        ]
+      },
+      {
+        "name": "Komodo Security CTF",
+        "description": "Application security-focused CTF.",
+        "link": "https://ctf.komodosec.com",
+        "tags": [
+          "advanced",
+          "CTF",
+          "practice",
+          "webapp"
+        ]
+      }
+    ],
+    "Books & Tutorials": [
+      {
+        "name": "Penetration Testing: A Hands-On Introduction by Georgia Weidman",
+        "link": "https://www.amazon.com/Penetration-Testing-Hands-Introduction-Ethical/dp/1593275641",
+        "description": null,
+        "tags": [
+          "Cybersecurity",
+          "Books & Tutorials",
+          "Penetration Testing"
+        ]
+      },
+      {
+        "name": "CTF Field Guide by Trail of Bits",
+        "link": null,
+        "description": null,
+        "tags": [
+          "Cybersecurity",
+          "Books & Tutorials",
+          "CTF"
+        ]
+      },
+      {
+        "name": "Open Security Training",
+        "link": "http://opensecuritytraining.info",
+        "description": "Free courses for cybersecurity topics.",
+        "tags": [
+          "Cybersecurity",
+          "Books & Tutorials"
+        ]
+      },
+      {
+        "name": "Hack The Box Academy",
+        "link": "https://academy.hackthebox.com",
+        "description": "Detailed courses for hacking skills. (Best Academy, but paid)",
+        "tags": [
+          "Cybersecurity",
+          "Books & Tutorials",
+          "Hack The Box"
+        ]
+      },
+      {
+        "name": "Hackers101",
+        "link": "https://www.hackers101.com",
+        "description": "Learn to hack with their free courses.",
+        "tags": [
+          "Cybersecurity",
+          "Books & Tutorials"
+        ]
+      }
+    ]
+  },
+  "interview": {
+    "CS Fundamentals": [
+      {
+        "name": "Striver OS",
+        "link": "https://takeuforward.org/operating-system/most-asked-operating-system-interview-questions",
+        "description": "Operating Systems Sheet by Striver",
+        "tags": [
+          "Operating Systems"
+        ]
+      },
+      {
+        "name": "Striver DBMS",
+        "link": "https://takeuforward.org/dbms/most-asked-dbms-interview-questions",
+        "description": "DBMS sheet by Striver",
+        "tags": [
+          "Database Management Systems"
+        ]
+      },
+      {
+        "name": "Striver CN",
+        "link": "",
+        "description": "Computer Network sheet by Striver",
+        "tags": [
+          "Computer Network"
+        ]
+      },
+      {
+        "name": "Love Babbar OOP",
+        "link": "https://whimsical.com/object-oriented-programming-cheatsheet-by-love-babbar-YbSgLatbWQ4R5paV7EgqFw",
+        "description": "Object-Oriented Programming cheatsheet by Love Babbar",
+        "tags": [
+          "Object-Oriented Programming",
+          "OOP"
+        ]
+      },
+      {
+        "name": "Love Babbar DBMS",
+        "link": "https://whimsical.com/dbms-roadmap-by-love-babbar-FmUi8ffVop33t3MmpVxPCo",
+        "description": "Database Management Systems roadmap by Love Babbar",
+        "tags": [
+          "Database Management Systems",
+          "DBMS"
+        ]
+      },
+      {
+        "name": "Love Babbar OS",
+        "link": "https://whimsical.com/operating-system-cheatsheet-by-love-babbar-S9tuWBCSQfzoBRF5EDNinQ",
+        "description": "Operating Systems cheatsheet by Love Babbar",
+        "tags": [
+          "Operating Systems",
+          "OS"
+        ]
+      },
+      {
+        "name": "Exponent System Design Interview Prep",
+        "link": "https://www.youtube.com/playlist?list=PLrtCHHeadkHp92TyPt1Fj452_VGLipJnL",
+        "description": "A comprehensive playlist covering various system design interview questions and solutions.",
+        "tags": [
+          "System Design",
+          "Interview Preparation"
+        ]
+      },
+      {
+        "name": "System Design Interview - Exponent",
+        "link": "https://www.youtube.com/watch?v=07BVxmVFDGY&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=32",
+        "description": "Detailed walkthrough of system design problems and their solutions by Exponent.",
+        "tags": [
+          "System Design",
+          "Interview Preparation"
+        ]
+      },
+      {
+        "name": "LLD Playlist by Coder Army",
+        "link": "https://www.youtube.com/playlist?list=PLQEaRBV9gAFvzp6XhcNFpk1WdOcyVo9qT",
+        "description": "Recommended playlist for Low Level Design questions.",
+        "tags": [
+          "Low Level Design",
+          "System Design"
+        ]
+      }
+    ],
+    "Interview Experiences": [
+      {
+        "name": "Drive Link",
+        "link": "https://drive.google.com/drive/u/2/folders/1BCKFtr9FWDI0iJ74bTYJdsYS74uKBq98",
+        "description": "Contains all internship and placement interview experiences by students.",
+        "tags": [
+          "Interview Preparation",
+          "Interview Experiences"
+        ]
+      }
+    ]
+  }
+}

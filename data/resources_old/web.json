@@ -1,5 +1,5 @@
 {
-  "Frontend": [
+  "frontend": [
     {
       "name": "React.js Fundamentals",
       "type": "youtube",
@@ -15,7 +15,7 @@
       "tags": ["Next.js", "React", "Full Stack"]
     }
   ],
-  "Backend": [
+  "backend": [
     {
       "name": "Node.js Complete Guide",
       "type": "youtube",
@@ -24,7 +24,7 @@
       "tags": ["Node.js", "Express", "Backend"]
     }
   ],
-  "DevOps": [
+  "devOps": [
     {
       "name": "Docker & Kubernetes",
       "type": "youtube",
@@ -33,13 +33,7 @@
       "tags": ["Docker", "Kubernetes", "DevOps"]
     }
   ],
-  "Mobile": [
-    {
-      "name": "React Native Tutorial",
-      "type": "youtube",
-      "link": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
-      "description": "Build mobile apps with React Native",
-      "tags": ["React Native", "Mobile", "JavaScript"]
-    }
+  "mobile": [
+    
   ]
 }
